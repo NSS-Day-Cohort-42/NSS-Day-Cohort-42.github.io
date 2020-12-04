@@ -1,6 +1,6 @@
 {
     "cohort": [
-        { 
+        {
             "id": 1,
             "firstName": "Dylan",
             "lastName": "Rowe",
@@ -174,7 +174,7 @@
             "firstName": "Emily",
             "lastName": "Hartzell",
             "reelThemIn": "You are braver than you believe, stronger than you seem, and smarter than you think -Christopher Robin",
-            "bio": "Insert bio here",
+            "bio": "Musician  and teacher now turned computer programmer. With years of creative experience and a fresh programming education, I’m able to incorporate my creative problem solving skills into my work. With a drive to continually learn and an eagerness to collaborate with others, I am excited to continue the adventure into my career in software development.",
             "github": "https://github.com/egeehartz",
             "linkedIn": "www.linkedin.com/in/emilyhartzell",
             "portfolio": "portfolio site link, if you don't have it built yet, leave blank, and I will update it when you complete it. ",
