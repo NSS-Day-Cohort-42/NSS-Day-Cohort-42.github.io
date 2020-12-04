@@ -37,7 +37,6 @@ const shuffle = (arr) => {
 function cohortMembers(list) {
   let data = list.cohort;
   data = shuffle(data)
-  console.log(data, "DATA")
   data.forEach(function (item) {
     let studentContact = `<div class="studentContact">`
     //if student doesn't have a portfolio site then don't display the icon
