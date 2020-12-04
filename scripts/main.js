@@ -3,7 +3,6 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 
-
 $.ajax({
   url: "data/cohort.json"
 }).done(cohortMembers)
@@ -11,8 +10,34 @@ $.ajax({
     console.log("error", error);
   });
 
+const shuffle = (arr) => {
+    //start at the end of the list...
+    let currentIndex = arr.length, holdThisForASec, numberOutOfAHat;
+    //as long as there are still more to choose from...
+    while (0 !== currentIndex) {
+        //get a random index, rounding down
+        //bc math.random produces an int between 0 & 1.
+        numberOutOfAHat = Math.floor(Math.random() * currentIndex);
+        //decrement
+        currentIndex -= 1;
+        //let's say our current index is 25 right now
+        // store the value of the object at index 25 in the var tempvalue
+        holdThisForASec = arr[currentIndex];
+        //then you can set the val of the object at the current index position
+        //equal to the val of the object at the random index position
+        arr[currentIndex] = arr[numberOutOfAHat];
+        //then we can se the val of the object that used to be at our random index
+        //equal to the value of the object at index 25 which we stored in the temp var
+        arr[numberOutOfAHat] = holdThisForASec;
+        // and we'll keep switchin em around until we get to index 0,
+    }
+    //then return the array!
+    return arr;
+}
 function cohortMembers(list) {
   let data = list.cohort;
+  data = shuffle(data)
+  console.log(data, "DATA")
   data.forEach(function (item) {
     let studentContact = `<div class="studentContact">`
     //if student doesn't have a portfolio site then don't display the icon
@@ -54,7 +79,6 @@ function cohortMembers(list) {
       studentInfo += `<p class="card-text">${item.reelThemIn}</p>`
     }
     studentInfo += studentContact
-
     //if a student doesn't have a bio, then the learn more button doesn't appear and a modal isn't created
     if(item.bio != null){
 
@@ -77,11 +101,9 @@ function cohortMembers(list) {
             </div>
             <div class="modal-body">
             <center><img src="images/classmates/${item.funImg}" alt="${item.firstName} ${item.lastName} fun"/></center><br>
-
             `
 
     studentInfo += studentContact
-
 
     studentInfo += `
 

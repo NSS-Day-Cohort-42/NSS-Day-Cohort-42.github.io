@@ -1,7 +1,7 @@
 {
     "cohort": [
-        { 
-            "id": 1,
+        {
+            "id": 0,
             "firstName": "Dylan",
             "lastName": "Rowe",
             "reelThemIn": "sudo hire me",
@@ -10,11 +10,11 @@
             "linkedIn": "https://www.linkedin.com/in/dylan-rowe-tn",
             "portfolio": "",
             "email": "dylanthk@gmail.com",
-            "proImg": "",
+            "proImg": "DylanRowe.png",
             "funImg": ""
         },
         {
-            "id": 2,
+            "id": 1,
             "firstName": "Michael",
             "lastName": "Baumer",
             "reelThemIn": "\"Let me just change this one line of code…...\"",
@@ -23,11 +23,11 @@
             "linkedIn": "https://www.linkedin.com/in/meesterbaumer/",
             "portfolio": "",
             "email": "meesterbaumer@mac.com",
-            "proImg": "",
+            "proImg": "MichaelBaumer.png",
             "funImg": ""
         },
         {
-            "id": 3,
+            "id": 2,
             "firstName": "Gib",
             "lastName": "Jeffries",
             "reelThemIn": "Mechanical Engineer turned Software Engineer",
@@ -36,11 +36,11 @@
             "linkedIn": "https://www.linkedin.com/in/gib-jeffries/",
             "portfolio": "https://mgjeffries.github.io/",
             "email": "gib.jeffries@gmail.com",
-            "proImg": "",
+            "proImg": "GibJeffries.png",
             "funImg": ""
         },
         {
-            "id": 4,
+            "id": 3,
             "firstName": "Esther",
             "lastName": "Sanders",
             "reelThemIn": "A person who never made a mistake never tried anything new. -Albert Einstein",
@@ -49,11 +49,11 @@
             "linkedIn": "https://www.linkedin.com/in/esthersanders23/",
             "portfolio": " https://esthersanders.github.io/",
             "email": "esthernaomi.violin@gmail.com",
-            "proImg": "",
+            "proImg": "EstherSanders.png",
             "funImg": ""
         },
         {
-            "id": 5,
+            "id": 4,
             "firstName": "Colin",
             "lastName": "Welshofer",
             "reelThemIn": "Coding is my new passion and I would love to be hired onto a team.",
@@ -62,11 +62,11 @@
             "linkedIn": "https://www.linkedin.com/in/colin-welshofer-6389a61b2/",
             "portfolio": " ",
             "email": "Cwelshofer@gmail.com",
-            "proImg": "",
+            "proImg": "ColinWelshofer.png",
             "funImg": ""
         },
         {
-            "id": 6,
+            "id": 5,
             "firstName": "Samantha",
             "lastName": "Maas",
             "reelThemIn": " \"I knew exactly what to do. But, in a much more real sense, I had no idea what to do.\" -Michael Scott, The Office",
@@ -75,11 +75,11 @@
             "linkedIn": "www.linkedin.com/in/samanthajmaas",
             "portfolio": "https://samanthajmaas.github.io/",
             "email": "samanthajmaas@gmail.com",
-            "proImg": "",
+            "proImg": "SamanthaMaas.png",
             "funImg": ""
         },
         {
-            "id": 7,
+            "id": 6,
             "firstName": "Ardis",
             "lastName": "Tilson",
             "reelThemIn": "Analog whizkid, digital druid",
@@ -88,11 +88,11 @@
             "linkedIn": "https://www.linkedin.com/in/ardis-tilson/",
             "portfolio": "portfolio site link, if you don't have it built yet, leave blank, and I will update it when you complete it. ",
             "email": "a.redford.tilson@gmail.com",
-            "proImg": "",
+            "proImg": "ArdisTilson.png",
             "funImg": ""
           },
           {
-            "id": 8,
+            "id": 7,
             "firstName": "Mikayla",
             "lastName": "Swinkels",
             "reelThemIn": "Bear Keeper, Bug Finder",
@@ -101,11 +101,11 @@
             "linkedIn": "https://www.linkedin.com/in/mikayla-swinkels/",
             "portfolio": "portfolio site link, if you don't have it built yet, leave blank, and I will update it when you complete it. ",
             "email": "mswinkels09@gmail.com",
-            "proImg": "",
+            "proImg": "MikaylaSwinkels.png",
             "funImg": ""
         },
         {
-            "id": 9,
+            "id": 8,
             "firstName": "Bryan",
             "lastName": "Ford",
             "reelThemIn": "Accountant Turned Developer",
@@ -114,11 +114,11 @@
             "linkedIn": "https://www.linkedin.com/in/bryanford1/",
             "portfolio": "",
             "email": "BFORDCPA@gmail.com",
-            "proImg": "",
+            "proImg": "BryanFord.png",
             "funImg": ""
         },
         {
-            "id": 10,
+            "id": 9,
             "firstName": "Jacob",
             "lastName": "Eckert",
             "reelThemIn": "JSON? More like JCOB! (JCOB stands for \"Jacob Codes Optimally and Beautifully\")",
@@ -127,11 +127,11 @@
             "linkedIn": "https://www.linkedin.com/in/jacob-w-eckert/",
             "portfolio": "https://jacobweckert.com/",
             "email": "jweckert17@gmail.com",
-            "proImg": "",
+            "proImg": "JacobEckert.png",
             "funImg": ""
         },
         {
-            "id": 11,
+            "id": 10,
             "firstName": "Chris",
             "lastName": "Johnson",
             "reelThemIn": "Have a plan, but be flexible.",
@@ -140,11 +140,11 @@
             "linkedIn": "https://www.linkedin.com/in/christopher-johnson1/",
             "portfolio": "chrisjdev.com",
             "email": "christopherjohnson1@gmail.com",
-            "proImg": "",
+            "proImg": "ChrisJohnson.png",
             "funImg": ""
         },
         {
-            "id": 12,
+            "id": 11,
             "firstName": "Michael",
             "lastName": "Chisholm",
             "reelThemIn": "I didn't choose the coding life, the coding life chose me.",
@@ -153,11 +153,11 @@
             "linkedIn": "https://www.linkedin.com/in/michaelc321/",
             "portfolio": "",
             "email": "michaelc321@yahoo.com",
-            "proImg": "",
+            "proImg": "MichaelChisholm.png",
             "funImg": ""
         },
         {
-            "id": 13,
+            "id": 12,
             "firstName": "Austin",
             "lastName": "Phy",
             "reelThemIn": "Civic innovator working to build bridges and improve communities",
@@ -166,11 +166,11 @@
             "linkedIn": "https://www.linkedin.com/in/austinphy/",
             "portfolio": "https://austinphy.com/",
             "email": "ForHire@austinphy.com",
-            "proImg": "https://i.imgur.com/NW2Yi80.jpg",
+            "proImg": "AustinPhy.png",
             "funImg": "https://i.imgur.com/SePMgtM.jpg"
         },
         {
-            "id": 14,
+            "id": 13,
             "firstName": "Emily",
             "lastName": "Hartzell",
             "reelThemIn": "You are braver than you believe, stronger than you seem, and smarter than you think -Christopher Robin",
@@ -179,11 +179,11 @@
             "linkedIn": "www.linkedin.com/in/emilyhartzell",
             "portfolio": "portfolio site link, if you don't have it built yet, leave blank, and I will update it when you complete it. ",
             "email": "emily.g.hartzell@gmail.com",
-            "proImg": "",
+            "proImg": "EmilyHartzel.png",
             "funImg": ""
         },
         {
-            "id": 15,
+            "id": 14,
             "firstName": "Connor",
             "lastName": "Blakeney",
             "reelThemIn": "Every time you click on my profile Chris Johnson owes you $1",
@@ -192,11 +192,11 @@
             "linkedIn": "https://www.linkedin.com/in/connor-blakeney/",
             "portfolio": "",
             "email": "connorblakeney@yahoo.com",
-            "proImg": "",
+            "proImg": "ConnorBlakeney.png",
             "funImg": ""
           },
           {
-            "id": 16,
+            "id": 15,
             "firstName": "Mark",
             "lastName": "Skinner",
             "reelThemIn": "INSERT INTO `Bio` VALUES (\"witty quote\");",
@@ -205,11 +205,11 @@
             "linkedIn": "https://www.linkedin.com/in/james-m-skinner",
             "portfolio": "",
             "email": "jmskinne@gmail.com",
-            "proImg": "",
+            "proImg": "MarkSkinner.png",
             "funImg": ""
         },
         {
-            "id": 17,
+            "id": 16,
             "firstName": "Gwynne",
             "lastName": "Meeks",
             "reelThemIn": "",
@@ -218,11 +218,11 @@
             "linkedIn": "inkedin.com/in/gwynnemeeks/",
             "portfolio": "gwynne-meeks.web.app",
             "email": "meeks.gwynne@gmail.com",
-            "proImg": "",
+            "proImg": "GwynneMeeks.png",
             "funImg": ""
         },
         {
-            "id": 18,
+            "id": 17,
             "firstName": "Gavin",
             "lastName": "Schriver",
             "reelThemIn": "It's okay to love data even though it can't love you back.",
@@ -231,24 +231,24 @@
             "linkedIn": "https://www.linkedin.com/in/gavinschriver/",
             "portfolio": " ",
             "email": "alexanderschriver@gmail.com",
-            "proImg": "",
+            "proImg": "GavinSchriver.png",
             "funImg": ""
         },
         {
-            "id": 19,
+            "id": 18,
             "firstName": "Monica Kay",
             "lastName": "Provence",
-            "reelThemIn": "\"Simplicity is about subtracting the obvious, and adding the meaningful.\" - -John Maeda",
+            "reelThemIn": "A painting is never truly finished, we just stop working on it.",
             "bio": "I am an extremely creative, solution-oriented software developer with a passion for helping others. Before pursuing a career in development, I worked in Education and Healthcare. During my last year of working in Healthcare, I became interested in software development.My interest would eventually lead me to Nashville Software School where I participated in a Web Development Jumpstart course. I immediately recognized that software development was the perfect combination of creative and strategic problem solving, and I was hooked! I love development because it allows me to be my natural self - curious, creative, and thoughtful. I look forward to starting my career as a developer.",
             "github": "github.com/heymonicakay",
             "linkedIn": "linkedin.com/in/heymonicakay/",
             "portfolio": "heymonicakay.github.io",
             "email": "hey@monicakay.dev",
-            "proImg": "",
+            "proImg": "MonicaKayProvence.png",
             "funImg": ""
         },
         {
-            "id": 20,
+            "id": 19,
             "firstName": "Travis",
             "lastName": "Brigman",
             "reelThemIn": "insert funny quote here.",
@@ -257,11 +257,11 @@
             "linkedIn": "https://www.linkedin.com/in/travisrbrigman/",
             "portfolio": "",
             "email": "travis1000@icloud.com",
-            "proImg": "",
+            "proImg": "TravisBrigman.png",
             "funImg": ""
         },
         {
-            "id": 21,
+            "id": 20,
             "firstName": "Rebecca",
             "lastName": "Parker",
             "reelThemIn": "Hello World!",
@@ -270,11 +270,11 @@
             "linkedIn": "https://www.linkedin.com/in/rebecca-a-parker/",
             "portfolio": "https://raparker88.github.io/RebeccaParker.github.io/",
             "email": "Raparker88@gmail.com",
-            "proImg": "",
+            "proImg": "RebeccaParker.png",
             "funImg": ""
         },
         {
-            "id": 22,
+            "id": 21,
             "firstName": "Luke",
             "lastName": "Zvada",
             "reelThemIn": "There's no place like 127.0.0.1",
@@ -283,11 +283,11 @@
             "linkedIn": "https://www.linkedin.com/in/lukezvada/",
             "portfolio": "www.lukezvada.com",
             "email": "lukepzvada@gmail.com",
-            "proImg": "",
+            "proImg": "LukeZvada.png",
             "funImg": ""
         },
         {
-            "id": 23,
+            "id": 22,
             "firstName": "Pete",
             "lastName": "Stewart",
             "reelThemIn": "\"If no mistake you have made, losing you are.\" - Yoda",
@@ -296,11 +296,11 @@
             "linkedIn": "https://www.linkedin.com/in/peteastewart",
             "portfolio": "https://petestewart.dev/",
             "email": "petestew@gmail.com",
-            "proImg": "",
+            "proImg": "PeteStewart.png",
             "funImg": "https://i.ibb.co/T1f67SN/fatboy-I65.png"
         },
         {
-            "id": 24,
+            "id": 23,
             "firstName": "Sam",
             "lastName": "Johnson",
             "reelThemIn": "I've got 99 problems, and a bug is all of them.",
@@ -309,11 +309,11 @@
             "linkedIn": "https://www.linkedin.com/in/s-johnson7/",
             "portfolio": "portfolio site link, if you don't have it built yet, leave blank, and I will update it when you complete it. ",
             "email": "shjohnson4996@gmail.com",
-            "proImg": "",
+            "proImg": "SamJohnson.png",
             "funImg": ""
         },
         {
-            "id": 25,
+            "id": 24,
             "firstName": "Brett",
             "lastName": "Derrington",
             "reelThemIn": "Passionate Consumer of Content",
@@ -322,11 +322,11 @@
             "linkedIn": "linkedin.com/in/brett-derrington",
             "portfolio": "",
             "email": "brett.derrington@gmail.com",
-            "proImg": "",
+            "proImg": "BrettDerrington.png",
             "funImg": ""
         },
         {
-            "id": 26,
+            "id": 25,
             "firstName": "Ha",
             "lastName": "Nguyen",
             "reelThemIn": "Nerdy By Nature",
@@ -335,11 +335,11 @@
             "linkedIn": "https://www.linkedin.com/in/ha-wyn/",
             "portfolio": "",
             "email": "justha.dev@gmail.com",
-            "proImg": "",
+            "proImg": "HaNguyen.png",
             "funImg": ""
         },
         {
-            "id": 27,
+            "id": 26,
             "firstName": "Michael",
             "lastName": "Tyler",
             "reelThemIn": "Write your code, as you would want others to write code before you.",
@@ -348,8 +348,8 @@
             "linkedIn": "https://www.linkedin.com/in/michaelr-tyler/",
             "portfolio": "portfolio site link, if you don't have it built yet, leave blank, and I will update it when you complete it. ",
             "email": "Miketylerabc@gmail.com",
-            "proImg": "",
+            "proImg": "MichaelTyler.png",
             "funImg": ""
         }
-        ]
+    ]
 }
