@@ -37,9 +37,10 @@ p {
     margin-right: 2em;
   }
 
-  #cohort22{
+  #cohort42{
       display: inline-block;
       color: #238193;
+      margin-right: 1rem;
   }
 
   #jumbheader{
@@ -75,7 +76,6 @@ p {
   .jumbotron.jumbotron-fluid img{
       background: none;
       width:100%;
-      padding-top: 1rem;
      }
 
   main {
