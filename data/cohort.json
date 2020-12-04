@@ -1,7 +1,7 @@
 {
     "cohort": [
         {
-            "id": 1,
+            "id": 0,
             "firstName": "Dylan",
             "lastName": "Rowe",
             "reelThemIn": "sudo hire me",
@@ -10,11 +10,11 @@
             "linkedIn": "https://www.linkedin.com/in/dylan-rowe-tn",
             "portfolio": "",
             "email": "dylanthk@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "DylanRowe.png",
+            "funImg": "DylanRowe.png"
         },
         {
-            "id": 2,
+            "id": 1,
             "firstName": "Michael",
             "lastName": "Baumer",
             "reelThemIn": "\"Let me just change this one line of code…...\"",
@@ -23,11 +23,11 @@
             "linkedIn": "https://www.linkedin.com/in/meesterbaumer/",
             "portfolio": "",
             "email": "meesterbaumer@mac.com",
-            "proImg": "",
+            "proImg": "MichaelBaumer.png",
             "funImg": ""
         },
         {
-            "id": 3,
+            "id": 2,
             "firstName": "Gib",
             "lastName": "Jeffries",
             "reelThemIn": "Mechanical Engineer turned Software Engineer",
@@ -36,11 +36,11 @@
             "linkedIn": "https://www.linkedin.com/in/gib-jeffries/",
             "portfolio": "https://mgjeffries.github.io/",
             "email": "gib.jeffries@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "GibJeffries.png",
+            "funImg": "GibJeffries.png"
         },
         {
-            "id": 4,
+            "id": 3,
             "firstName": "Esther",
             "lastName": "Sanders",
             "reelThemIn": "A person who never made a mistake never tried anything new. -Albert Einstein",
@@ -49,63 +49,63 @@
             "linkedIn": "https://www.linkedin.com/in/esthersanders23/",
             "portfolio": " https://esthersanders.github.io/",
             "email": "esthernaomi.violin@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "EstherSanders.png",
+            "funImg": "EstherSanders.png"
         },
         {
-            "id": 5,
+            "id": 4,
             "firstName": "Colin",
             "lastName": "Welshofer",
             "reelThemIn": "Coding is my new passion and I would love to be hired onto a team.",
             "bio": "I am an aspiring full-stack developer who has recently discovered my love of coding and am wanting to make a career of it.",
             "github": "https://github.com/Cwelshofer",
             "linkedIn": "https://www.linkedin.com/in/colin-welshofer-6389a61b2/",
-            "portfolio": " ",
+             "portfolio": "",
             "email": "Cwelshofer@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "ColinWelshofer.png",
+            "funImg": "ColinWelshofer.png"
         },
         {
-            "id": 6,
+            "id": 5,
             "firstName": "Samantha",
             "lastName": "Maas",
             "reelThemIn": " \"I knew exactly what to do. But, in a much more real sense, I had no idea what to do.\" -Michael Scott, The Office",
             "bio": "Prior to starting my journey in software development, I was working in the education field as an elementary teacher. I am grateful for the experiences that being a teacher gave me, including the ability to mentor students, being able to solve problems on the spot, and collaborating with a team to achieve goals. After relocating to Nashville and being introduced to the software community, I felt that software development was the perfect career path for me to continue using some of the skills important to teaching, while also using the new passion that I found I have for coding. I'm excited to continue on this path that guarentees opportunities to learn and to grow in my abilities every single day. ",
             "github": "https://github.com/samanthajmaas",
-            "linkedIn": "www.linkedin.com/in/samanthajmaas",
+            "linkedIn": "https://www.linkedin.com/in/samanthajmaas",
             "portfolio": "https://samanthajmaas.github.io/",
             "email": "samanthajmaas@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "SamanthaMaas.png",
+            "funImg": "SamanthaMaas.png"
         },
         {
-            "id": 7,
+            "id": 6,
             "firstName": "Ardis",
             "lastName": "Tilson",
             "reelThemIn": "Analog whizkid, digital druid",
             "bio": "Inventive and tenacious full stack developer with a wide base of experience in team-oriented project implementation, data cataloging, numerical problem solving, and analysis of customer demands to maximize sales and productivity. I gravitate towards positions requiring problem-solving, lateral thinking, and careful attention to detail. Signal processing is my passion. I spend much of my free time studying and conducting experiments in analog-to-digital conversion with Arduino microcontrollers and visual DSP languages such as Max/MSP and Puredata. I capitalize on this experience by repairing, modifying, and selling sound modules. I am now searching for opportunities to apply my skills to problems in the realm of software rather than hardware in order to expand my knowledge of the digital side of signal processing and amass further coding experience in a workplace dedicated to application design.",
             "github": "https://github.com/ardisrtilson",
             "linkedIn": "https://www.linkedin.com/in/ardis-tilson/",
-            "portfolio": "portfolio site link, if you don't have it built yet, leave blank, and I will update it when you complete it. ",
+             "portfolio": "",
             "email": "a.redford.tilson@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "ArdisTilson.png",
+            "funImg": "ArdisTilson.png"
           },
           {
-            "id": 8,
+            "id": 7,
             "firstName": "Mikayla",
             "lastName": "Swinkels",
             "reelThemIn": "Bear Keeper, Bug Finder",
             "bio": "From Zookeeper to Software Developer, I have always loved solving puzzles and creating new things that I can stand back and say \"Ya I made that\". When a friend of mine introduced me to Nashville Software School I realized that I can have the best of both worlds. I am able to push myself beyond what I thought I was capable and create amazing programs and designs that I can look back and be proud of. I will be forever grateful for this opportunity to learn and grow as a software developer. ",
             "github": "https://github.com/mswinkels09",
             "linkedIn": "https://www.linkedin.com/in/mikayla-swinkels/",
-            "portfolio": "portfolio site link, if you don't have it built yet, leave blank, and I will update it when you complete it. ",
+             "portfolio": "",
             "email": "mswinkels09@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "MikaylaSwinkels.png",
+            "funImg": "MikaylaSwinkels_Fun.jpg"
         },
         {
-            "id": 9,
+            "id": 8,
             "firstName": "Bryan",
             "lastName": "Ford",
             "reelThemIn": "Accountant Turned Developer",
@@ -114,11 +114,11 @@
             "linkedIn": "https://www.linkedin.com/in/bryanford1/",
             "portfolio": "",
             "email": "BFORDCPA@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "BryanFord.png",
+            "funImg": "BryanFord.png"
         },
         {
-            "id": 10,
+            "id": 9,
             "firstName": "Jacob",
             "lastName": "Eckert",
             "reelThemIn": "JSON? More like JCOB! (JCOB stands for \"Jacob Codes Optimally and Beautifully\")",
@@ -127,11 +127,11 @@
             "linkedIn": "https://www.linkedin.com/in/jacob-w-eckert/",
             "portfolio": "https://jacobweckert.com/",
             "email": "jweckert17@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "JacobEckert.png",
+            "funImg": "JacobEckert.png"
         },
         {
-            "id": 11,
+            "id": 10,
             "firstName": "Chris",
             "lastName": "Johnson",
             "reelThemIn": "Have a plan, but be flexible.",
@@ -140,11 +140,11 @@
             "linkedIn": "https://www.linkedin.com/in/christopher-johnson1/",
             "portfolio": "chrisjdev.com",
             "email": "christopherjohnson1@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "ChrisJohnson.png",
+            "funImg": "ChrisJohnson.png"
         },
         {
-            "id": 12,
+            "id": 11,
             "firstName": "Michael",
             "lastName": "Chisholm",
             "reelThemIn": "I didn't choose the coding life, the coding life chose me.",
@@ -153,11 +153,11 @@
             "linkedIn": "https://www.linkedin.com/in/michaelc321/",
             "portfolio": "",
             "email": "michaelc321@yahoo.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "MichaelChisholm.png",
+            "funImg": "MichaelChisholm.png"
         },
         {
-            "id": 13,
+            "id": 12,
             "firstName": "Austin",
             "lastName": "Phy",
             "reelThemIn": "Civic innovator working to build bridges and improve communities",
@@ -166,24 +166,24 @@
             "linkedIn": "https://www.linkedin.com/in/austinphy/",
             "portfolio": "https://austinphy.com/",
             "email": "ForHire@austinphy.com",
-            "proImg": "https://i.imgur.com/NW2Yi80.jpg",
-            "funImg": "https://i.imgur.com/SePMgtM.jpg"
+            "proImg": "AustinPhy.png",
+            "funImg": "AustinPhy_Fun.jpg"
         },
         {
-            "id": 14,
+            "id": 13,
             "firstName": "Emily",
             "lastName": "Hartzell",
             "reelThemIn": "You are braver than you believe, stronger than you seem, and smarter than you think -Christopher Robin",
             "bio": "Musician  and teacher now turned computer programmer. With years of creative experience and a fresh programming education, I’m able to incorporate my creative problem solving skills into my work. With a drive to continually learn and an eagerness to collaborate with others, I am excited to continue the adventure into my career in software development.",
             "github": "https://github.com/egeehartz",
-            "linkedIn": "www.linkedin.com/in/emilyhartzell",
-            "portfolio": "portfolio site link, if you don't have it built yet, leave blank, and I will update it when you complete it. ",
+            "linkedIn": "https://www.linkedin.com/in/emilyhartzell",
+            "portfolio": "",
             "email": "emily.g.hartzell@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "EmilyHartzell.png",
+            "funImg": "EmilyHartzell.png"
         },
         {
-            "id": 15,
+            "id": 14,
             "firstName": "Connor",
             "lastName": "Blakeney",
             "reelThemIn": "Every time you click on my profile Chris Johnson owes you $1",
@@ -192,11 +192,11 @@
             "linkedIn": "https://www.linkedin.com/in/connor-blakeney/",
             "portfolio": "",
             "email": "connorblakeney@yahoo.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "ConnorBlakeney.png",
+            "funImg": "ConnorBlakeney.png"
           },
           {
-            "id": 16,
+            "id": 15,
             "firstName": "Mark",
             "lastName": "Skinner",
             "reelThemIn": "INSERT INTO `Bio` VALUES (\"witty quote\");",
@@ -205,50 +205,50 @@
             "linkedIn": "https://www.linkedin.com/in/james-m-skinner",
             "portfolio": "",
             "email": "jmskinne@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "MarkSkinner.png",
+            "funImg": "MarkSkinner.png"
+        },
+        {
+            "id": 16,
+            "firstName": "Gwynne",
+            "lastName": "Meeks",
+            "reelThemIn": "From failure you learn--from success, not so much--Meet the Robinsons",
+            "bio": "In transitioning my career, I was interested in finding something that fed my passion for creative problem solving. I was introduced to coding my a family member and through her, I learned about the creative aspects of coding and the influence it has in our world. The more I learned, the more I want to become a part of that conversation.",
+            "github": "https://github.com/gwynnemeeks",
+            "linkedIn": "https://linkedin.com/in/gwynnemeeks/",
+            "portfolio": "https://gwynne-meeks.web.app/",
+            "email": "meeks.gwynne@gmail.com",
+            "proImg": "GwynneMeeks.png",
+            "funImg": "GwynneMeeks.png"
         },
         {
             "id": 17,
-            "firstName": "Gwynne",
-            "lastName": "Meeks",
-            "reelThemIn": "",
-            "bio": "In transitioning my career, I was interested in finding something that fed my passion for creative problem solving. I was introduced to coding my a family member and through her, I learned about the creative aspects of coding and the influence it has in our world. The more I learned, the more I want to become a part of that conversation.",
-            "github": "https://github.com/gwynnemeeks",
-            "linkedIn": "inkedin.com/in/gwynnemeeks/",
-            "portfolio": "gwynne-meeks.web.app",
-            "email": "meeks.gwynne@gmail.com",
-            "proImg": "",
-            "funImg": ""
-        },
-        {
-            "id": 18,
             "firstName": "Gavin",
             "lastName": "Schriver",
             "reelThemIn": "It's okay to love data even though it can't love you back.",
             "bio": "Hailing from Houston TX, home of everyone's favorite sports franchises. Flirted with the tech world ever since graduating as an English major, including stints at startups in Austin and Chicago, but it's getting pretty serious between us recently. Pastimes include faking jazz (will play for open bar tab) and going for long runs whenever my body isn't totally failing me.",
             "github": "https://github.com/gavinschriver",
             "linkedIn": "https://www.linkedin.com/in/gavinschriver/",
-            "portfolio": " ",
+             "portfolio": "",
             "email": "alexanderschriver@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "GavinSchriver.png",
+            "funImg": "GavinSchriver.png"
+        },
+        {
+            "id": 18,
+            "firstName": "Monica Kay",
+            "lastName": "Provence",
+            "reelThemIn": "A painting is never truly finished, we just stop working on it.",
+            "bio": "I am an extremely creative, solution-oriented software developer with a passion for helping others. Before pursuing a career in development, I worked in Education and Healthcare. During my last year of working in Healthcare, I became interested in software development.My interest would eventually lead me to Nashville Software School where I participated in a Web Development Jumpstart course. I immediately recognized that software development was the perfect combination of creative and strategic problem solving, and I was hooked! I love development because it allows me to be my natural self - curious, creative, and thoughtful. I look forward to starting my career as a developer.",
+            "github": "https://github.com/heymonicakay",
+            "linkedIn": "https://linkedin.com/in/heymonicakay/",
+            "portfolio": "https://heymonicakay.github.io",
+            "email": "hey@monicakay.dev",
+            "proImg": "MonicaKayProvence.png",
+            "funImg": "MonicaKayProvence_Fun.png"
         },
         {
             "id": 19,
-            "firstName": "Monica Kay",
-            "lastName": "Provence",
-            "reelThemIn": "\"Simplicity is about subtracting the obvious, and adding the meaningful.\" - -John Maeda",
-            "bio": "I am an extremely creative, solution-oriented software developer with a passion for helping others. Before pursuing a career in development, I worked in Education and Healthcare. During my last year of working in Healthcare, I became interested in software development.My interest would eventually lead me to Nashville Software School where I participated in a Web Development Jumpstart course. I immediately recognized that software development was the perfect combination of creative and strategic problem solving, and I was hooked! I love development because it allows me to be my natural self - curious, creative, and thoughtful. I look forward to starting my career as a developer.",
-            "github": "github.com/heymonicakay",
-            "linkedIn": "linkedin.com/in/heymonicakay/",
-            "portfolio": "heymonicakay.github.io",
-            "email": "hey@monicakay.dev",
-            "proImg": "",
-            "funImg": ""
-        },
-        {
-            "id": 20,
             "firstName": "Travis",
             "lastName": "Brigman",
             "reelThemIn": "insert funny quote here.",
@@ -257,11 +257,11 @@
             "linkedIn": "https://www.linkedin.com/in/travisrbrigman/",
             "portfolio": "https://travisbrigman.dev/",
             "email": "travis1000@icloud.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "TravisBrigman.png",
+            "funImg": "TravisBrigman.png"
         },
         {
-            "id": 21,
+            "id": 20,
             "firstName": "Rebecca",
             "lastName": "Parker",
             "reelThemIn": "Hello World!",
@@ -270,24 +270,24 @@
             "linkedIn": "https://www.linkedin.com/in/rebecca-a-parker/",
             "portfolio": "https://raparker88.github.io/RebeccaParker.github.io/",
             "email": "Raparker88@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "RebeccaParker.png",
+            "funImg": "RebeccaParker.png"
         },
         {
-            "id": 22,
+            "id": 21,
             "firstName": "Luke",
             "lastName": "Zvada",
             "reelThemIn": "There's no place like 127.0.0.1",
             "bio": "Previously working in the music industry as a tour manager, I learned how to solve issues on the go, organize a complicated schedule, and manage team morale. Through that hard work, I have found a new passion for software development. I attended Nashville Software School which helped me to take that new passion and turn it into reality. Having strong attributes such as problem solving, dependability, and efficiency, I have embraced this new opportunity in tech and continue to learn and grow as a software developer every day.",
             "github":   "https://github.com/LukeZvada",
             "linkedIn": "https://www.linkedin.com/in/lukezvada/",
-            "portfolio": "www.lukezvada.com",
+            "portfolio": "https://www.lukezvada.com",
             "email": "lukepzvada@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "LukeZvada.png",
+            "funImg": "LukeZvada.png"
         },
         {
-            "id": 23,
+            "id": 22,
             "firstName": "Pete",
             "lastName": "Stewart",
             "reelThemIn": "\"If no mistake you have made, losing you are.\" - Yoda",
@@ -296,37 +296,37 @@
             "linkedIn": "https://www.linkedin.com/in/peteastewart",
             "portfolio": "https://petestewart.dev/",
             "email": "petestew@gmail.com",
-            "proImg": "",
-            "funImg": "https://i.ibb.co/T1f67SN/fatboy-I65.png"
+            "proImg": "PeteStewart.png",
+            "funImg": "PeteStewart_Fun.png"
         },
         {
-            "id": 24,
+            "id": 23,
             "firstName": "Sam",
             "lastName": "Johnson",
             "reelThemIn": "I've got 99 problems, and a bug is all of them.",
             "bio": "UX designer turned developer, I'm interested in user-centered design and learning new things.  ",
             "github": "https://github.com/Johnson4996",
             "linkedIn": "https://www.linkedin.com/in/s-johnson7/",
-            "portfolio": "portfolio site link, if you don't have it built yet, leave blank, and I will update it when you complete it. ",
+            "portfolio": "https://samjohnson.dev/",
             "email": "shjohnson4996@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "SamJohnson.png",
+            "funImg": "SamJohnson.png"
         },
         {
-            "id": 25,
+            "id": 24,
             "firstName": "Brett",
             "lastName": "Derrington",
             "reelThemIn": "Passionate Consumer of Content",
             "bio": "I love learning new things, exploring new places, and getting better at the things I already do. This is certainly reflected in the hobbies I pursue on my own time: Tennis, reading, video games, and traveling. Software development and programming and fields that are always moving forward and changing, and that excites me to no end.",
-            "github": "github.com/bmd682",
-            "linkedIn": "linkedin.com/in/brett-derrington",
-            "portfolio": "",
+            "github": "https://github.com/bmd682",
+            "linkedIn": "https://linkedin.com/in/brett-derrington",
+            "portfolio": "https://https://bmd682.github.io/",
             "email": "brett.derrington@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "BrettDerrington.png",
+            "funImg": "BrettDerrington.png"
         },
         {
-            "id": 26,
+            "id": 25,
             "firstName": "Ha",
             "lastName": "Nguyen",
             "reelThemIn": "Nerdy By Nature",
@@ -335,21 +335,21 @@
             "linkedIn": "https://www.linkedin.com/in/ha-wyn/",
             "portfolio": "",
             "email": "justha.dev@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "HaNguyen.png",
+            "funImg": "HaNguyen.png"
         },
         {
-            "id": 27,
+            "id": 26,
             "firstName": "Michael",
             "lastName": "Tyler",
             "reelThemIn": "Write your code, as you would want others to write code before you.",
             "bio": "As a Software Developer transitioning from the automotive tech industry, I liked breaking things down and putting them back together. I needed to find something that brought me a new challenge every day. That's when I discovered software development, where I could continuously build, learn, and design new things. ",
             "github": "https://github.com/Michaelr-Tyler",
             "linkedIn": "https://www.linkedin.com/in/michaelr-tyler/",
-            "portfolio": "portfolio site link, if you don't have it built yet, leave blank, and I will update it when you complete it. ",
+             "portfolio": "",
             "email": "Miketylerabc@gmail.com",
-            "proImg": "",
-            "funImg": ""
+            "proImg": "MichaelTyler.png",
+            "funImg": "MichaelTyler.png"
         }
-        ]
+    ]
 }
