@@ -84,13 +84,13 @@ function cohortMembers(list) {
 
 
     studentInfo += `
-      
+
     ${item.bio}
     </div>
     <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
       Back
               </button></center>
-            
+
           </div >
         </div >
       </div > `;
@@ -123,3 +123,5 @@ function techs(list) {
       </div>`;
   });
 };
+
+
