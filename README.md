@@ -17,8 +17,8 @@ This template was written using jQuery and Ajax, so the syntax might look a litt
 
 ## To Deploy
 
-Deploy to Github Pages - no need for a custom domain.
+Deploy to Github Pages - no need for a custom domain
 
 [Directions to deploy to Github Pages](https://www.codecademy.com/articles/f1-u3-github-pages)
 
-Mandy will then take your Github Pages URL and set up a redirect link - that redirect link is what employers will get (example: [www.nashss.com/cohort28](www.nashss.com/cohort28)). 
+Mandy will then take your Github Pages URL and set up a redirect link - that redirect link is what employers will get (example: [www.nashss.com/cohort28](www.nashss.com/cohort28)).
