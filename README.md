@@ -1,24 +1,195 @@
-# Class Website Template Repo
-
-This is a simple template for NSS students to use to create their class website. Employers are looking for a simple website where they can easily see each students' quick summary and links to Github, LinkedIn, and website. Your class website should look nice and professional, but no need to get fancy. ;)
-
-## To get started on the class website
-
-1. Clone repo
-1. Change the remote origin to a repo on your cohort's Github organization
-1. Update `data/cohort.json` with student information
-1. Update images with your class's photos
-1. Update `data/tech.json` with your cohort's tech stack
-1. Update NSS Eventbrite link to the specific link for your class's demo day. Reach out to Mandy if you need the link.
-1. Update the "Thanks" section in `index.html` to reflect who your cohort would like to thank.
-1. Change anything else with styling you'd like!
-
-This template was written using jQuery and Ajax, so the syntax might look a little different than what you're used to. If you have any questions about how to use the template or make changes to it, please reach out to an instructor and we'd be happy to help walk you through it.
-
-## To Deploy
-
-Deploy to Github Pages - no need for a custom domain
-
-[Directions to deploy to Github Pages](https://www.codecademy.com/articles/f1-u3-github-pages)
-
-Mandy will then take your Github Pages URL and set up a redirect link - that redirect link is what employers will get (example: [www.nashss.com/cohort28](www.nashss.com/cohort28)).
+<style>
+/* Wrapper */
+    .wrapper {
+        display: flex;
+        flex-flow: column nowrap;
+        font-family: "Sofia", Arial, Helvetica;
+        background: hsl(0, 0%, 90%);
+        text-align: center;
+        justify-content:space-evenly;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+/* ReadMe Title */
+    .readme-title {
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        background: rgb(13, 34, 39);
+        padding: 10px;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .readme-subtitle {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .text {
+        color: rgb(13, 34, 39);
+    }
+    .note-text {
+        padding: 0 2rem;
+    }
+    .overview-text,
+    .header {
+        text-align: center;
+    }
+    .meet-the-team {
+        display: flex;
+        width: 100%;
+        font-weight: 800;
+        font-size: 25px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center
+    }
+    .header {
+        margin-top: 1rem;
+        display: flex;
+        width: 100%;
+        font-weight: 800;
+        font-size: 25px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center
+    }
+/* Contributor Container */
+    .contributor-container {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+<!-- /* Photo Styling */ -->
+    .contain {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-content: center;
+        margin: 1rem;
+        text-align: center
+    }
+    .photo-contain {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center
+    }
+    .photo {
+        height: 75px;
+        width: 75px;
+        transition: .35s;
+        cursor: pointer;
+        border-radius: 25rem;
+        border: 2px solid rgb(13, 34, 39);
+        margin: .5rem;
+        object-fit: contain;
+    }
+    .photo:hover {
+        box-shadow: 3px 3px 8px rgb(13, 34, 39);
+    }
+    .name {
+        font-weight: 550;
+        font-size: small;
+    }
+</style>
+<body class="wrapper">
+    <div class="readme-title">
+        Nashville Software School
+        <div class="readme-subtitle">
+            Cohort 42 Class Website
+        </div>
+    </div>
+    <div class="text header">
+            Contributors
+    </div>
+    <div class="contributor-container">
+        <div class="contain">
+            <div class="photo-contain">
+                <a
+                href="https://github.com/ConnorBlakeney"
+                target="_blank"
+                class="photo-link"
+                title="Click to see Connor's GitHub!">
+                    <img
+                    class="photo"
+                    src="images/classmates/ConnorBlakeney.png"/>
+                </a>
+            </div>
+            <p class="name text">
+                Connor Blakeney
+            </p>
+        </div>
+        <div class="contain">
+            <div class="photo-contain">
+                <a
+                href="https://github.com/egeehartz"
+                target="_blank"
+                class="photo-link"
+                title="Click to see Emily's GitHub!">
+                    <img
+                    class="photo"
+                    src="images/classmates/EmilyHartzell.png"/>
+                </a>
+            </div>
+            <p class="name text">
+                Emily Hartzell
+            </p>
+        </div>
+        <div class="contain">
+            <div class="photo-contain">
+                <a
+                href="https://github.com/mgjeffries"
+                target="_blank"
+                class="photo-link"
+                title="Click to see Gib's GitHub!">
+                    <img
+                    class="photo"
+                    src="images/classmates/GibJeffries.png"/>
+                </a>
+            </div>
+            <p class="name text">
+                Gib Jeffries
+            </p>
+        </div>
+        <div class="contain">
+            <div class="photo-contain">
+                <a
+                href="https://github.com/christopherjohnson1"
+                target="_blank"
+                class="photo-link"
+                title="Click to see Chris's GitHub!">
+                    <img
+                    class="photo"
+                    src="images/classmates/ChrisJohnson.png"/>
+                </a>
+            </div>
+            <p class="name text">
+                Chris Johnson
+            </p>
+        </div>
+        <div class="contain">
+            <div class="photo-contain">
+                <a
+                href="https://github.com/heymonicakay"
+                target="_blank"
+                class="photo-link"
+                title="Click to see Monica's GitHub!">
+                    <img
+                    class="photo"
+                    src="images/classmates/MonicaKayProvence.png"/>
+                </a>
+            </div>
+            <p class="name text">
+                Monica Kay Provence
+            </p>
+        </div>
+    </div>
+</body>
