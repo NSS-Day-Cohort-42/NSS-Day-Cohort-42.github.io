@@ -40,7 +40,7 @@ function cohortMembers(list) {
   data.forEach(function (item) {
     let studentContact = `<div class="studentContact">`
     //if student doesn't have a portfolio site then don't display the icon
-    if (item.portfolio != null) {
+    if (item.portfolio != "") {
 
       studentContact += `<a href=${item.portfolio} target="_blank">
       <i class="fas fa-globe fa-2x contactIcons"></i>
