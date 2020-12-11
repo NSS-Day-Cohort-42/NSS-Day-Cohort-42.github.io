@@ -344,3 +344,21 @@ p {
         align-content: center;
     }
 
+    .resumeHyperlink {
+        text-decoration: none;
+        color: #238193!important;
+    }
+
+    .resumeHyperlink:hover {
+        text-decoration: none;
+        color: white!important;
+    }
+
+    .resumeDiv {
+        margin-bottom: 1rem;;
+    }
+
+    .resumeButton:hover > .resumeHyperlink {
+        color: white!important;
+    }
+

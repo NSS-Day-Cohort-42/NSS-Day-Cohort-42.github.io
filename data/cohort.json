@@ -13,7 +13,8 @@
             "proImg": "DylanRowe.png",
             "funImg": "DylanRowe.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 1,
@@ -28,22 +29,24 @@
             "proImg": "MichaelBaumer.png",
             "funImg": "MichaelBaumer.png",
             "frontend": "https://youtu.be/UNdwYdpXOuw",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 2,
             "firstName": "Gib",
             "lastName": "Jeffries",
             "reelThemIn": "Mechanical Engineer turned Software Engineer",
-            "bio": "<p>I have a passion for building things. There is a game-like satisfaction that I get from getting something to work. It's also an honest way to make a living. In the last five years of working with automated equipment and robots, I've become increasingly interested in web development. Why? Every time I would think about the best way to solve a problem in the manufacturing world, I found myself dreaming up a software solution. I've really enjoyed the Agile-SCRUM style group work at NSS. I often find myself focusing on the data flow, and I enjoy debugging code with my classmates.</p> <p>Over the past five years, I've dabbled in a lot of different hobbies. The latest is yoga! I'm a total beginner and I love it. Ongoing and past hobbies include rock climbing, hiking, Crossfit, painting, and 3D printing. I'm active in a church, but I realize that some people don't like to talk about church or faith, and I respect that.</p>",
+            "bio":"I have a passion for building things. There is a game-like satisfaction that I get from getting something to work. It's also an honest way to make a living. In the last five years of working as a mechanical engineer with automated equipment and robots, I've become increasingly interested in web development. Why? Every time I would think about the best way to solve a problem in the manufacturing world, I found myself dreaming up a software solution. I've really enjoyed the Agile-SCRUM style group work at NSS. I often find myself focusing on the data flow, and I enjoy debugging code with my classmates. <br><br> Over the past five years, I've dabbled in a lot of different hobbies. The latest is yoga! I'm a total beginner and I love it. Ongoing and past hobbies include rock climbing, hiking, Crossfit, painting, and 3D printing. I'm active in a church, but I realize that some people don't like to talk about church or faith, and I respect that. I like learning what other people are passionate about, and exploring new things!",
             "github": "https://github.com/mgjeffries",
             "linkedIn": "https://www.linkedin.com/in/gib-jeffries/",
             "portfolio": "https://mgjeffries.github.io/",
             "email": "gib.jeffries@gmail.com",
             "proImg": "GibJeffries.png",
             "funImg": "GibJeffries.png",
-            "frontend": "",
-            "backend": ""
+            "frontend": "https://youtu.be/gP_i7jAj6s8",
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 3,
@@ -58,7 +61,8 @@
             "proImg": "EstherSanders.png",
             "funImg": "EstherSanders.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 4,
@@ -73,7 +77,8 @@
             "proImg": "ColinWelshofer.png",
             "funImg": "ColinWelshofer.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 5,
@@ -88,7 +93,8 @@
             "proImg": "SamanthaMaas.png",
             "funImg": "SamanthaMaas.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 6,
@@ -103,7 +109,8 @@
             "proImg": "ArdisTilson.png",
             "funImg": "ArdisTilson.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
           },
           {
             "id": 7,
@@ -118,7 +125,8 @@
             "proImg": "MikaylaSwinkels.png",
             "funImg": "MikaylaSwinkels_Fun.jpg",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 8,
@@ -133,7 +141,8 @@
             "proImg": "BryanFord.png",
             "funImg": "BryanFord.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 9,
@@ -148,7 +157,8 @@
             "proImg": "JacobEckert.png",
             "funImg": "JacobEckert.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 10,
@@ -163,7 +173,8 @@
             "proImg": "ChrisJohnson.png",
             "funImg": "ChrisJohnson.png",
             "frontend": "https://youtu.be/2V5Pd-vyBP4",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 11,
@@ -178,7 +189,8 @@
             "proImg": "MichaelChisholm.png",
             "funImg": "MichaelChisholm.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 12,
@@ -193,7 +205,8 @@
             "proImg": "AustinPhy.png",
             "funImg": "AustinPhy_Fun.jpg",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 13,
@@ -208,7 +221,8 @@
             "proImg": "EmilyHartzell.png",
             "funImg": "EmilyHartzell.png",
             "frontend": "https://youtu.be/f_bwBwbRkGI",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 14,
@@ -223,7 +237,8 @@
             "proImg": "ConnorBlakeney.png",
             "funImg": "ConnorBlakeney.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
           },
           {
             "id": 15,
@@ -238,7 +253,8 @@
             "proImg": "MarkSkinner.png",
             "funImg": "MarkSkinner.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 16,
@@ -253,7 +269,8 @@
             "proImg": "GwynneMeeks.png",
             "funImg": "GwynneMeeks.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 17,
@@ -268,7 +285,8 @@
             "proImg": "GavinSchriver.png",
             "funImg": "GavinSchriver.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 18,
@@ -283,7 +301,8 @@
             "proImg": "MonicaKayProvence.png",
             "funImg": "MonicaKayProvence_Fun.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 19,
@@ -298,7 +317,8 @@
             "proImg": "TravisBrigman.png",
             "funImg": "TravisBrigman.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 20,
@@ -313,7 +333,8 @@
             "proImg": "RebeccaParker.png",
             "funImg": "RebeccaParker.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 21,
@@ -328,7 +349,8 @@
             "proImg": "LukeZvada.png",
             "funImg": "LukeZvada.png",
             "frontend": "https://youtu.be/zSTCjRObvec",
-            "backend": ""
+            "backend": "",
+            "resume": "LukeZvadaResume.pdf"
         },
         {
             "id": 22,
@@ -343,7 +365,8 @@
             "proImg": "PeteStewart.png",
             "funImg": "PeteStewart_Fun.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 23,
@@ -358,7 +381,8 @@
             "proImg": "SamJohnson.png",
             "funImg": "SamJohnson.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 24,
@@ -373,7 +397,8 @@
             "proImg": "BrettDerrington.png",
             "funImg": "BrettDerrington.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 25,
@@ -388,7 +413,8 @@
             "proImg": "HaNguyen.png",
             "funImg": "HaNguyen.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 26,
@@ -403,7 +429,8 @@
             "proImg": "MichaelTylerHeadshot.jpeg",
             "funImg": "MichaelTyler.png",
             "frontend": "",
-            "backend": ""
+            "backend": "",
+            "resume": "MichaelTyler-FullStack-Developer-Resume.pdf"
         }
     ]
 }
