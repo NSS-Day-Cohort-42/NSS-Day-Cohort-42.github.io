@@ -11,7 +11,9 @@
             "portfolio": "https://dylan-trevor-rowe.github.io/portfolio-site",
             "email": "dylanthk@gmail.com",
             "proImg": "DylanRowe.png",
-            "funImg": "DylanRowe.png"
+            "funImg": "DylanRowe.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 1,
@@ -24,7 +26,9 @@
             "portfolio": "",
             "email": "meesterbaumer@mac.com",
             "proImg": "MichaelBaumer.png",
-            "funImg": "MichaelBaumer.png"
+            "funImg": "MichaelBaumer.png",
+            "frontend": "https://youtu.be/UNdwYdpXOuw",
+            "backend": ""
         },
         {
             "id": 2,
@@ -37,7 +41,9 @@
             "portfolio": "https://mgjeffries.github.io/",
             "email": "gib.jeffries@gmail.com",
             "proImg": "GibJeffries.png",
-            "funImg": "GibJeffries.png"
+            "funImg": "GibJeffries.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 3,
@@ -50,7 +56,9 @@
             "portfolio": " https://esthersanders.github.io/",
             "email": "esthernaomi.violin@gmail.com",
             "proImg": "EstherSanders.png",
-            "funImg": "EstherSanders.png"
+            "funImg": "EstherSanders.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 4,
@@ -63,7 +71,9 @@
              "portfolio": "",
             "email": "Cwelshofer@gmail.com",
             "proImg": "ColinWelshofer.png",
-            "funImg": "ColinWelshofer.png"
+            "funImg": "ColinWelshofer.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 5,
@@ -76,7 +86,9 @@
             "portfolio": "https://samanthajmaas.github.io/",
             "email": "samanthajmaas@gmail.com",
             "proImg": "SamanthaMaas.png",
-            "funImg": "SamanthaMaas.png"
+            "funImg": "SamanthaMaas.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 6,
@@ -89,7 +101,9 @@
              "portfolio": "https://ardisrtilson.github.io/portfolio-website/",
             "email": "a.redford.tilson@gmail.com",
             "proImg": "ArdisTilson.png",
-            "funImg": "ArdisTilson.png"
+            "funImg": "ArdisTilson.png",
+            "frontend": "",
+            "backend": ""
           },
           {
             "id": 7,
@@ -99,10 +113,12 @@
             "bio": "From Zookeeper to Software Developer, I have always loved solving puzzles and creating new things that I can stand back and say \"Ya I made that\". When a friend of mine introduced me to Nashville Software School I realized that I can have the best of both worlds. I am able to push myself beyond what I thought I was capable and create amazing programs and designs that I can look back and be proud of. I will be forever grateful for this opportunity to learn and grow as a software developer. ",
             "github": "https://github.com/mswinkels09",
             "linkedIn": "https://www.linkedin.com/in/mikayla-swinkels/",
-             "portfolio": "",
+            "portfolio": "",
             "email": "mswinkels09@gmail.com",
             "proImg": "MikaylaSwinkels.png",
-            "funImg": "MikaylaSwinkels_Fun.jpg"
+            "funImg": "MikaylaSwinkels_Fun.jpg",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 8,
@@ -112,10 +128,12 @@
             "bio": "Prior to starting at Nashville Software School, I spent six years working in corporate tax. During this time, I found myself becoming the go-to person in the department for leveraging technology to improve processes to provide quicker and more accurate numbers throughout multiple areas. This led me to become interested in the development side of the software I was using and, I have now found a new field that I believe utilizes my attention to detail and problem solving abilities that I have developed during the course of my previous career. ",
             "github": "https://github.com/FORDBA",
             "linkedIn": "https://www.linkedin.com/in/bryanford1/",
-            "portfolio": "",
+            "portfolio": "https://fordba.github.io/Personal-Site/",
             "email": "BFORDCPA@gmail.com",
             "proImg": "BryanFord.png",
-            "funImg": "BryanFord.png"
+            "funImg": "BryanFord.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 9,
@@ -128,7 +146,9 @@
             "portfolio": "https://jacobweckert.com/",
             "email": "jweckert17@gmail.com",
             "proImg": "JacobEckert.png",
-            "funImg": "JacobEckert.png"
+            "funImg": "JacobEckert.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 10,
@@ -141,7 +161,9 @@
             "portfolio": "http://www.chrisjdev.com",
             "email": "christopherjohnson1@gmail.com",
             "proImg": "ChrisJohnson.png",
-            "funImg": "ChrisJohnson.png"
+            "funImg": "ChrisJohnson.png",
+            "frontend": "https://youtu.be/2V5Pd-vyBP4",
+            "backend": ""
         },
         {
             "id": 11,
@@ -154,7 +176,9 @@
             "portfolio": "",
             "email": "michaelc321@yahoo.com",
             "proImg": "MichaelChisholm.png",
-            "funImg": "MichaelChisholm.png"
+            "funImg": "MichaelChisholm.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 12,
@@ -167,7 +191,9 @@
             "portfolio": "https://austinphy.com/",
             "email": "ForHire@austinphy.com",
             "proImg": "AustinPhy.png",
-            "funImg": "AustinPhy_Fun.jpg"
+            "funImg": "AustinPhy_Fun.jpg",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 13,
@@ -180,7 +206,9 @@
             "portfolio": "",
             "email": "emily.g.hartzell@gmail.com",
             "proImg": "EmilyHartzell.png",
-            "funImg": "EmilyHartzell.png"
+            "funImg": "EmilyHartzell.png",
+            "frontend": "https://youtu.be/f_bwBwbRkGI",
+            "backend": ""
         },
         {
             "id": 14,
@@ -193,7 +221,9 @@
             "portfolio": "",
             "email": "connorblakeney@yahoo.com",
             "proImg": "ConnorBlakeney.png",
-            "funImg": "ConnorBlakeney.png"
+            "funImg": "ConnorBlakeney.png",
+            "frontend": "",
+            "backend": ""
           },
           {
             "id": 15,
@@ -206,7 +236,9 @@
             "portfolio": "",
             "email": "jmskinne@gmail.com",
             "proImg": "MarkSkinner.png",
-            "funImg": "MarkSkinner.png"
+            "funImg": "MarkSkinner.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 16,
@@ -219,7 +251,9 @@
             "portfolio": "https://gwynne-meeks.web.app/",
             "email": "meeks.gwynne@gmail.com",
             "proImg": "GwynneMeeks.png",
-            "funImg": "GwynneMeeks.png"
+            "funImg": "GwynneMeeks.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 17,
@@ -232,7 +266,9 @@
              "portfolio": "",
             "email": "alexanderschriver@gmail.com",
             "proImg": "GavinSchriver.png",
-            "funImg": "GavinSchriver.png"
+            "funImg": "GavinSchriver.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 18,
@@ -245,7 +281,9 @@
             "portfolio": "https://heymonicakay.github.io",
             "email": "hey@monicakay.dev",
             "proImg": "MonicaKayProvence.png",
-            "funImg": "MonicaKayProvence_Fun.png"
+            "funImg": "MonicaKayProvence_Fun.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 19,
@@ -258,7 +296,9 @@
             "portfolio": "https://travisbrigman.dev/",
             "email": "travis1000@icloud.com",
             "proImg": "TravisBrigman.png",
-            "funImg": "TravisBrigman.png"
+            "funImg": "TravisBrigman.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 20,
@@ -271,7 +311,9 @@
             "portfolio": "https://raparker88.github.io/RebeccaParker.github.io/",
             "email": "Raparker88@gmail.com",
             "proImg": "RebeccaParker.png",
-            "funImg": "RebeccaParker.png"
+            "funImg": "RebeccaParker.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 21,
@@ -284,7 +326,9 @@
             "portfolio": "https://www.lukezvada.com",
             "email": "lukepzvada@gmail.com",
             "proImg": "LukeZvada.png",
-            "funImg": "LukeZvada.png"
+            "funImg": "LukeZvada.png",
+            "frontend": "https://youtu.be/zSTCjRObvec",
+            "backend": ""
         },
         {
             "id": 22,
@@ -297,7 +341,9 @@
             "portfolio": "https://petestewart.dev/",
             "email": "petestew@gmail.com",
             "proImg": "PeteStewart.png",
-            "funImg": "PeteStewart_Fun.png"
+            "funImg": "PeteStewart_Fun.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 23,
@@ -310,7 +356,9 @@
             "portfolio": "https://samjohnson.dev/",
             "email": "shjohnson4996@gmail.com",
             "proImg": "SamJohnson.png",
-            "funImg": "SamJohnson.png"
+            "funImg": "SamJohnson.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 24,
@@ -323,7 +371,9 @@
             "portfolio": "https://https://bmd682.github.io/",
             "email": "brett.derrington@gmail.com",
             "proImg": "BrettDerrington.png",
-            "funImg": "BrettDerrington.png"
+            "funImg": "BrettDerrington.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 25,
@@ -336,7 +386,9 @@
             "portfolio": "",
             "email": "justha.dev@gmail.com",
             "proImg": "HaNguyen.png",
-            "funImg": "HaNguyen.png"
+            "funImg": "HaNguyen.png",
+            "frontend": "",
+            "backend": ""
         },
         {
             "id": 26,
@@ -348,8 +400,10 @@
             "linkedIn": "https://www.linkedin.com/in/michaelr-tyler/",
              "portfolio": "",
             "email": "Miketylerabc@gmail.com",
-            "proImg": "MichaelTyler.png",
-            "funImg": "MichaelTyler.png"
+            "proImg": "MichaelTylerHeadshot.jpeg",
+            "funImg": "MichaelTyler.png",
+            "frontend": "",
+            "backend": ""
         }
     ]
 }

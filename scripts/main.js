@@ -46,6 +46,13 @@ function cohortMembers(list) {
       <i class="fas fa-globe fa-2x contactIcons"></i>
       </a>`
     }
+    //if student doesn't have a frontend demo then don't display the icon
+    if (item.frontend != "") {
+
+      studentContact += `<a href=${item.frontend} target="_blank">
+      <i class="fab fa-youtube fa-2x contactIcons"></i>
+      </a>`
+    }
     //if student doesn't have a github site then don't display the icon
     if (item.github != null) {
 
