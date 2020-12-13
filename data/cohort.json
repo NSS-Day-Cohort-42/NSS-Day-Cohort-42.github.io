@@ -46,7 +46,7 @@
             "funImg": "GibJeffriesFun.jpg",
             "frontend": "https://youtu.be/gP_i7jAj6s8",
             "backend": "",
-            "resume": ""
+            "resume": "GibJeffries-Resume.pdf"
         },
         {
             "id": 3,
@@ -62,7 +62,7 @@
             "funImg": "EstherSanders.png",
             "frontend": "",
             "backend": "",
-            "resume": ""
+            "resume": "EstherSandersResume.pdf"
         },
         {
             "id": 4,
@@ -216,7 +216,7 @@
             "bio": "Musician  and teacher now turned computer programmer. With years of creative experience and a fresh programming education, I’m able to incorporate my creative problem solving skills into my work. With a drive to continually learn and an eagerness to collaborate with others, I am excited to continue the adventure into my career in software development.",
             "github": "https://github.com/egeehartz",
             "linkedIn": "https://www.linkedin.com/in/emilyhartzell",
-            "portfolio": "",
+            "portfolio": "https://egeehartz.github.io/",
             "email": "emily.g.hartzell@gmail.com",
             "proImg": "EmilyHartzell.png",
             "funImg": "EmilyHartzell.png",
@@ -280,13 +280,13 @@
             "bio": "Hailing from Houston TX, home of everyone's favorite sports franchises. Flirted with the tech world ever since graduating as an English major, including stints at startups in Austin and Chicago, but it's getting pretty serious between us recently. Pastimes include faking jazz (will play for open bar tab) and going for long runs whenever my body isn't totally failing me.",
             "github": "https://github.com/gavinschriver",
             "linkedIn": "https://www.linkedin.com/in/gavinschriver/",
-             "portfolio": "",
+             "portfolio": "https://gavinschriver.github.io/",
             "email": "alexanderschriver@gmail.com",
             "proImg": "GavinSchriver.png",
-            "funImg": "GavinSchriver.png",
-            "frontend": "",
+            "funImg": "GavinSchriverFun.png",
+            "frontend": "https://www.youtube.com/watch?v=MSavUJ4yMZs",
             "backend": "",
-            "resume": ""
+            "resume": "GavinSchriverResume.pdf"
         },
         {
             "id": 18,
