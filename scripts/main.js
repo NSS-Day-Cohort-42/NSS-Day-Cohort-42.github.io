@@ -70,7 +70,7 @@ function cohortMembers(list) {
     //if student doesn't have an email then don't display the icon
     if (item.email != null) {
 
-      studentContact += `<a href=mailto:${item.email}>
+      studentContact += `<a href=mailto:${item.email} target="_blank">
               <i class="fas fa-envelope fa-2x contactIcons"></i>
             </a>`
     }
