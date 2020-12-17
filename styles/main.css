@@ -222,9 +222,6 @@ p {
 
   @media (max-width: 900px) {
 
-      /* body {
-          background: url("../assets/images/bg.jpg") repeat;
-      } */
       .jumbotron.jumbotron-fluid img{
           background: white;
           margin-top: 10%;
