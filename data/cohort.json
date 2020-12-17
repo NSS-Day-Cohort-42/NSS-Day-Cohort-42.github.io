@@ -140,7 +140,7 @@
             "email": "BFORDCPA@gmail.com",
             "proImg": "BryanFord.png",
             "funImg": "BryanFord.png",
-            "frontend": "",
+            "frontend": "https://youtu.be/Zq23xhAXQlI",
             "backend": "",
             "resume": "Bryan Ford Resume.pdf"
         },
@@ -400,19 +400,19 @@
             "backend": "",
             "resume": "BrettDerringtonResumeV4.pdf"
         },
-        {
+        { 
             "id": 25,
             "firstName": "Ha",
             "lastName": "Nguyen",
-            "reelThemIn": "Nerdy By Nature",
-            "bio": "My interest in tech comes from years of experience in various industries, collaborating with development teams to accommodate changing business needs. I have an eye and appreciation for application styling and design, but what I enjoy most about being a developer is leveraging technology in creative ways to drive continuous improvements.",
+            "reelThemIn": "Nerdy By Nature.",
+            "bio": "My interest in tech comes from years of collaboration with development teams to keep pace with changing business needs. I have extensive experience in finance and analytics, working across multiple industries including digitally focused media and marketing, manufacturing and healthcare. With an eye and appreciation for styling and design, I greatly enjoy finding creative ways to drive continuous improvements for the end user.",
             "github": "https://github.com/justha",
             "linkedIn": "https://www.linkedin.com/in/ha-wyn/",
-            "portfolio": "",
+            "portfolio": "https://hanguyen.io/",
             "email": "justha.dev@gmail.com",
             "proImg": "HaNguyen.png",
             "funImg": "HaNguyen.png",
-            "frontend": "",
+            "frontend": "https://youtu.be/4dIuNsFrRjQ",
             "backend": "",
             "resume": ""
         },
