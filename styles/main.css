@@ -3,28 +3,27 @@ button,
 .pointer {
     cursor: pointer;
 }
-
 .btn-outline-primary{
     color: #238193!important;
     border-color: #238193!important;
 }
-
 .btn-outline-primary:hover{
     color: white!important;
     background-color: #238193!important;
 }
-
+/* code element styling */
 code {
     color: black;
 }
 
-/* Styling font fam for all p elements */
+/* p element styling */
 p {
     font-family: 'Barlow', sans-serif;
 }
 
-/* Styles html and body elements */
-html, body {
+/* html and body element styling */
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
     background: url("../images/background.jpg") fixed no-repeat;
@@ -34,16 +33,16 @@ html, body {
 
 /* ------------------------------------------- NAVBAR */
 
-/* styles all elements with class 'navbar' - can be overridden */
+/* class 'navbar' */
 .navbar{
+    background: white;
     display: flex;
-    background-color: rgb(55, 55, 56);
-    padding: 1.5%;
+    padding: 1rem;
 }
 
 /* Styles navbars with ALL of these classes => MAIN NAVBAR */
 .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
-    background: white !important;
+    background: white;
     height: 9%;
     position: sticky;
     top: 0;
@@ -70,8 +69,8 @@ html, body {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    width: 160px;
-    height: 40px;
+    width: 170px;
+    height: 45px;
     border: 2px solid #238193;
     border-radius: .5rem;
     font-weight: 700;
@@ -292,96 +291,73 @@ main {
     box-shadow: none;
 }
 
-  .technos, .words{
-      margin-top: -55px;
-      background: white;
-      padding:20px;
-      border-radius: 20px;
-  }
-
-  .techs{
-      width: 70px;
-      margin: 20px 0px;
-    }
-
-  .words{
-      padding:50px;
-  }
-
-  .no-gutters {
-      margin-right: 0;
-      margin-left: 0;
-    }
-
-  .card-img-top{
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-    }
-
-  .col,
-  [class*="col-"] {
-      padding-right: 0;
-      padding-left: 0;
-    }
-
-  .modal-body{
-      display: block;
-    }
-
-    .studentContact{
-        text-align: center;
-        display: flex;
-        justify-content: space-evenly;
-        -webkit-justify-content: space-evenly;
-        margin-bottom: .75rem;
-    }
-
-    .contactIcons{
-        color: #238193;
-    }
-    .contactIcons:hover{
-        transform: scale(1.2);
-    }
-
-    .modal-header{
-      background-color: lightgray!important;
-      color: #238193;
-    }
-
-    .modal-body img{
-      width: 50%;
-      height: 50%;
-      box-shadow: 3px 3px 5px #cacaca;
-      border-radius: 10px;
-    }
-
-.backButton{
-    margin-bottom: 1.5rem;
+.technos, .words{
+    margin-top: -55px;
+    background: white;
+    padding:20px;
+    border-radius: 20px;
 }
 
-.resumeDiv {
+.techs{
+    width: 70px;
+    margin: 20px 0px;
+}
+
+.words{
+    padding:50px;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.col,
+[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.modal-body{
+    display: block;
+}
+
+.studentContact{
+    text-align: center;
     display: flex;
-    flex-flow: column nowrap;
-    justify-self: flex-end;
-    align-self: center;
-    position: relative;
-    bottom: 0;
+    justify-content: space-evenly;
+    -webkit-justify-content: space-evenly;
+    margin-bottom: .75rem;
+}
+
+.contactIcons{
+    color: #238193;
+}
+.contactIcons:hover{
+    transform: scale(1.2);
 }
 
 
+
+/* -------------------------------------- "COME SEE OUR DEMO" LINK */
+/* aligns text center */
 .demo-date {
     text-align: center;
 }
-
-.demo-date:hover > .demo-date__link {
-    color: #0f5d6d !important;
-    text-decoration: none !important;
-}
-
+/* styles hyperlink text */
 .demo-date__link {
     color: #238193 !important;
     text-decoration: none !important;
     transition: .35s;
+}
+/* changes hyperlink text color on hover over demo-date element */
+.demo-date:hover > .demo-date__link {
+    color: #0f5d6d !important;
 }
 
 /* -------------------------ICON SIZE @ 992px - 1200px - Full Screen*/
@@ -399,77 +375,104 @@ main {
 }
 
 /* -------------------------------------------------- 900px */
-  @media (max-width: 900px) {
-
+@media (max-width: 900px) {
     .header-text{
         margin: 0 auto;
         height: 30px;
     }
-
     .header-text h2{
         font-size: 1.5em;
         margin-top: -10px;
     }
-
     .modal-body{
         display: block;
+    }
+    .modal-body img{
+        width: 100%;
     }
     .modal-content {
         width: 100%;
     }
-
-    .modal-body img{
-        width: 100%;
-    }
-
-    .navbar-brand img{
-        padding-right: none;
-    }
 }
+
+.card-body {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
 /* -------------------------------- RESUME BUTTON  */
+/*  */
 .resumeHyperlink {
-    text-decoration: none;
+    text-decoration: none !important;
     color: #238193!important;
 }
-
-.resumeHyperlink:hover {
-    text-decoration: none;
-    color: white!important;
+/* breathing room for Download Resume btn */
+.resumeDiv,
+.learnMoreButtonContain {
+    margin-bottom: 1rem;
 }
-
-.resumeDiv {
-    margin-bottom: 1rem;;
-}
-
+/* changes hyperlink text color when hovering over btn element */
 .resumeButton:hover > .resumeHyperlink {
     color: white!important;
 }
-
-/*---------------------------------------- QUOTE */
-.quote{
-    text-align: left;
+/*  */
+.resumeButton,
+.detailsButton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-self: flex-end;
 }
 
+/*---------------------------------------- CARD BODY QUOTE */
+/* quoted text aligns left */
+.quote {
+    text-align: left;
+}
+/* moves the by line to the right side of the card */
 .whosaidthat {
     display: flex;
     justify-content: flex-end;
     align-content: flex-start;
     text-align: right;
 }
-
+/* italicizes citations */
 .cite {
     font-style: italic;
 }
-
+/* scoots the by line a little to the left */
 .scoot {
     margin-right: 1.5rem;
 }
 
-/* -----------------------------------------MODAL */
-.close-modal {
-    color: black;
+/* ----------------------------------------- MODAL INFO*/
+/* modal header - contains name and close btn*/
+.modal-header{
+    background-color: lightgray!important;
+    color: #238193;
+    display: flex;
+}
+/* student name inside modal header */
+.student-name-modal {
+    display: flex;
+    justify-content: center;
+    align-contetnt: center;
 }
 
+/* img inside modal -----------FUN IMG */
+.modal-body img{
+    width: 50%;
+    height: 50%;
+    box-shadow: 3px 3px 5px #cacaca;
+    border-radius: 10px;
+}
+/* breating room for the back button */
+.backButton{
+    margin-bottom: 1rem;
+}
+
+/* -------- BIO */
 .bioContainer {
     display: flex;
     flex-flow: column nowrap;
@@ -477,7 +480,7 @@ main {
     text-align: left;
 }
 
-/* ----------------------------------- FOOTER */
+/* ---------------------------------------------- FOOTER */
 
 .navbar.navbar-light.bg-light.footer{
     font-size: 1em;
@@ -499,4 +502,9 @@ main {
     display: flex;
     width: 100%;
     text-align: center;
+}
+
+/* --------------------------------------- HIDES SCROLLBAR */
+::-webkit-scrollbar {
+    display: none;
 }

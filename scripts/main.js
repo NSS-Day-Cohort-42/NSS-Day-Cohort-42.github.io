@@ -104,13 +104,11 @@ function cohortMembers(list) {
         if (item.resume != "") { /*If RESUME exists, render RESUME BUTTON*/
             const resumeButton = `
                     <div class="resumeDiv">
-                        <center>
-                            <button type="button" class="btn btn-outline-primary title-font bottom resumeButton" data-toggle="modal" data target="#cohortMember${item.id}">
-                                <a class="resumeHyperlink" href="images/resumes/${item.resume}" download="${item.lastName}Resume">
-                                    Download Resume
-                                </a>
-                            </button>
-                        </center>
+                        <button type="button" class="btn btn-outline-primary title-font bottom resumeButton" data-toggle="modal" data target="#cohortMember${item.id}" title="Download Resume">
+                            <a class="resumeHyperlink" href="images/resumes/${item.resume}" download="${item.lastName}_Resume">
+                                Download Resume
+                            </a>
+                        </button>
                     </div>`
             studentInfo += resumeButton
         }
@@ -118,13 +116,11 @@ function cohortMembers(list) {
         if(item.bio != "") { /*If BIO exists, render LEARN MORE BTN, MODAL, & BACK BTN*/
             const learnMoreButton = `
                     <div class="learnMoreButtonContain">
-                        <center>
-                            <button type="button" class="btn btn-outline-primary title-font bottom" data-toggle="modal" data-target="#cohortMember${item.id}">
-                                Learn More!
-                            </button>
-                        </center>
+                        <button type="button" class="btn btn-outline-primary title-font bottom detailsButton" data-toggle="modal" data-target="#cohortMember${item.id}" title="See Details">
+                            Learn More!
+                        </button>
                     </div>`
-                    
+
             studentInfo += learnMoreButton
 
             const modalInfo = `
