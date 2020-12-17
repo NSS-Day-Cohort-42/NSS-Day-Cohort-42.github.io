@@ -207,17 +207,17 @@ p {
   }
 
   /* adjusts size of contact icons depending on size of card */
-  @media (min-width: 992px) and (max-width: 1200px){
-      .fa-3x{
-          font-size: 2.5em!important;
-        }
-  }
+@media (min-width: 992px) and (max-width: 1200px){
+    .fa-3x{
+        font-size: 2.5em!important;
+    }
+}
 
-  @media (min-width: 768px) and (max-width: 991px){
-      .fa-3x{
-          font-size: 2em!important;
-        }
-  }
+@media (min-width: 768px) and (max-width: 991px){
+    .fa-3x{
+        font-size: 2em!important;
+    }
+}
 
 
   @media (max-width: 900px) {
