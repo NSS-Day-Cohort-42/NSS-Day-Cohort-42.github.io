@@ -8,10 +8,13 @@
             "bio": "I am a full-stack developer with a background in the music industry, not only on the artist side but also in pro audio sales and       installation. My interest in programming originally stemmed from the idea of doing something in life that combined  both logical                thinking and creativity. Through research and suggestions I set out on a life changing career path that I can keep growing with.",
             "github": "https://github.com/Dylan-Trevor-Rowe",
             "linkedIn": "https://www.linkedin.com/in/dylan-rowe-tn",
-            "portfolio": "",
+            "portfolio": "https://dylan-trevor-rowe.github.io/portfolio-site",
             "email": "dylanthk@gmail.com",
             "proImg": "DylanRowe.png",
-            "funImg": "DylanRowe.png"
+            "funImg": "DylanRowe.png",
+            "frontend": "https://share.vidyard.com/watch/UwcePpELpQpgcAeFD2UWiu",
+            "backend": "",
+            "resume": "Dylan Rowe- Resume.pdf"
         },
         {
             "id": 1,
@@ -21,23 +24,29 @@
             "bio": "During my nearly 20 years in the retail industry, I had the opportunity to work in every role from associate to upper level management.  While I love leading teams and developing talent, my true passion was always the problem solving aspects of my role.  After supporting the corporate office with numerous tech projects and watching changing dynamics in the retail sector,  I knew it was time to follow my heart and learn development so I could do what I love full-time.",
             "github": "https://github.com/meesterbaumer",
             "linkedIn": "https://www.linkedin.com/in/meesterbaumer/",
-            "portfolio": "",
+            "portfolio": "mbaumer.tech",
             "email": "meesterbaumer@mac.com",
             "proImg": "MichaelBaumer.png",
-            "funImg": "MichaelBaumer.png"
+            "funImg": "MichaelBaumer.png",
+            "frontend": "https://youtu.be/UNdwYdpXOuw",
+            "backend": "",
+            "resume": "MichaelBaumerResumeFinal.pdf"
         },
         {
             "id": 2,
             "firstName": "Gib",
             "lastName": "Jeffries",
             "reelThemIn": "Mechanical Engineer turned Software Engineer",
-            "bio": "<p>I have a passion for building things. There is a game-like satisfaction that I get from getting something to work. It's also an honest way to make a living. In the last five years of working with automated equipment and robots, I've become increasingly interested in web development. Why? Every time I would think about the best way to solve a problem in the manufacturing world, I found myself dreaming up a software solution. I've really enjoyed the Agile-SCRUM style group work at NSS. I often find myself focusing on the data flow, and I enjoy debugging code with my classmates.</p> <p>Over the past five years, I've dabbled in a lot of different hobbies. The latest is yoga! I'm a total beginner and I love it. Ongoing and past hobbies include rock climbing, hiking, Crossfit, painting, and 3D printing. I'm active in a church, but I realize that some people don't like to talk about church or faith, and I respect that.</p>",
+            "bio":"I have a passion for building things. There is a game-like satisfaction that I get from getting something to work. It's also an honest way to make a living. In the last five years of working as a mechanical engineer with automated equipment and robots, I've become increasingly interested in web development. Why? Every time I would think about the best way to solve a problem in the manufacturing world, I found myself dreaming up a software solution. I've really enjoyed the Agile-SCRUM style group work at NSS. I often find myself focusing on the data flow, and I enjoy debugging code with my classmates. <br><br> Over the past five years, I've dabbled in a lot of different hobbies. The latest is yoga! I'm a total beginner and I love it. Ongoing and past hobbies include rock climbing, hiking, Crossfit, painting, and 3D printing. I'm active in a church, but I realize that some people don't like to talk about church or faith, and I respect that. I like learning what other people are passionate about, and exploring new things!",
             "github": "https://github.com/mgjeffries",
             "linkedIn": "https://www.linkedin.com/in/gib-jeffries/",
             "portfolio": "https://mgjeffries.github.io/",
             "email": "gib.jeffries@gmail.com",
             "proImg": "GibJeffries.png",
-            "funImg": "GibJeffries.png"
+            "funImg": "GibJeffriesFun.jpg",
+            "frontend": "https://youtu.be/gP_i7jAj6s8",
+            "backend": "",
+            "resume": "GibJeffries-Resume.pdf"
         },
         {
             "id": 3,
@@ -50,20 +59,26 @@
             "portfolio": " https://esthersanders.github.io/",
             "email": "esthernaomi.violin@gmail.com",
             "proImg": "EstherSanders.png",
-            "funImg": "EstherSanders.png"
+            "funImg": "EstherSanders.png",
+            "frontend": "https://youtu.be/-g4OAALKS98",
+            "backend": "",
+            "resume": "EstherSandersResume.pdf"
         },
         {
             "id": 4,
             "firstName": "Colin",
             "lastName": "Welshofer",
-            "reelThemIn": "Coding is my new passion and I would love to be hired onto a team.",
+            "reelThemIn": "\"It pays to keep an open mind, but not so open your brains fall out.\" -Carl Sagan",
             "bio": "I am an aspiring full-stack developer who has recently discovered my love of coding and am wanting to make a career of it.",
             "github": "https://github.com/Cwelshofer",
             "linkedIn": "https://www.linkedin.com/in/colin-welshofer-6389a61b2/",
-             "portfolio": "",
+            "portfolio": "https://cwelshofer.github.io/",
             "email": "Cwelshofer@gmail.com",
             "proImg": "ColinWelshofer.png",
-            "funImg": "ColinWelshofer.png"
+            "funImg": "ColinWelshofer.png",
+            "frontend": "https://www.youtube.com/watch?v=F3NYRfHH9Ik&feature=youtu.be ",
+            "backend": "",
+            "resume": "ColinWelshofer-Resume.pdf"
         },
         {
             "id": 5,
@@ -76,7 +91,10 @@
             "portfolio": "https://samanthajmaas.github.io/",
             "email": "samanthajmaas@gmail.com",
             "proImg": "SamanthaMaas.png",
-            "funImg": "SamanthaMaas.png"
+            "funImg": "SamanthaMaas.png",
+            "frontend": "https://www.youtube.com/watch?v=P2TX5h_f8Gk",
+            "backend": "",
+            "resume": "MaasResume.pdf"
         },
         {
             "id": 6,
@@ -86,10 +104,13 @@
             "bio": "Inventive and tenacious full stack developer with a wide base of experience in team-oriented project implementation, data cataloging, numerical problem solving, and analysis of customer demands to maximize sales and productivity. I gravitate towards positions requiring problem-solving, lateral thinking, and careful attention to detail. Signal processing is my passion. I spend much of my free time studying and conducting experiments in analog-to-digital conversion with Arduino microcontrollers and visual DSP languages such as Max/MSP and Puredata. I capitalize on this experience by repairing, modifying, and selling sound modules. I am now searching for opportunities to apply my skills to problems in the realm of software rather than hardware in order to expand my knowledge of the digital side of signal processing and amass further coding experience in a workplace dedicated to application design.",
             "github": "https://github.com/ardisrtilson",
             "linkedIn": "https://www.linkedin.com/in/ardis-tilson/",
-             "portfolio": "",
+             "portfolio": "https://ardisrtilson.github.io/portfolio-website/",
             "email": "a.redford.tilson@gmail.com",
             "proImg": "ArdisTilson.png",
-            "funImg": "ArdisTilson.png"
+            "funImg": "ArdisTilson.png",
+            "frontend": "https://youtu.be/D1_ZlMSC7AM",
+            "backend": "",
+            "resume": "Ardis Tilson Resume V5.pdf"
           },
           {
             "id": 7,
@@ -99,10 +120,13 @@
             "bio": "From Zookeeper to Software Developer, I have always loved solving puzzles and creating new things that I can stand back and say \"Ya I made that\". When a friend of mine introduced me to Nashville Software School I realized that I can have the best of both worlds. I am able to push myself beyond what I thought I was capable and create amazing programs and designs that I can look back and be proud of. I will be forever grateful for this opportunity to learn and grow as a software developer. ",
             "github": "https://github.com/mswinkels09",
             "linkedIn": "https://www.linkedin.com/in/mikayla-swinkels/",
-             "portfolio": "",
+            "portfolio": "https://mikaylaswinkels.com",
             "email": "mswinkels09@gmail.com",
             "proImg": "MikaylaSwinkels.png",
-            "funImg": "MikaylaSwinkels_Fun.jpg"
+            "funImg": "MikaylaSwinkels_Fun.jpg",
+            "frontend": "https://youtu.be/kSJZYVHRa8w",
+            "backend": "",
+            "resume": "MikaylaSwinkelsFinal.pdf"
         },
         {
             "id": 8,
@@ -112,10 +136,13 @@
             "bio": "Prior to starting at Nashville Software School, I spent six years working in corporate tax. During this time, I found myself becoming the go-to person in the department for leveraging technology to improve processes to provide quicker and more accurate numbers throughout multiple areas. This led me to become interested in the development side of the software I was using and, I have now found a new field that I believe utilizes my attention to detail and problem solving abilities that I have developed during the course of my previous career. ",
             "github": "https://github.com/FORDBA",
             "linkedIn": "https://www.linkedin.com/in/bryanford1/",
-            "portfolio": "",
+            "portfolio": "https://fordba.github.io/Personal-Site/",
             "email": "BFORDCPA@gmail.com",
             "proImg": "BryanFord.png",
-            "funImg": "BryanFord.png"
+            "funImg": "BryanFord.png",
+            "frontend": "https://youtu.be/Zq23xhAXQlI",
+            "backend": "",
+            "resume": "Bryan Ford Resume.pdf"
         },
         {
             "id": 9,
@@ -128,20 +155,26 @@
             "portfolio": "https://jacobweckert.com/",
             "email": "jweckert17@gmail.com",
             "proImg": "JacobEckert.png",
-            "funImg": "JacobEckert.png"
+            "funImg": "JacobEckert.png",
+            "frontend": "https://www.youtube.com/watch?v=x867PQVe7DU ",
+            "backend": "",
+            "resume": "JacobEckert-Resume.pdf"
         },
         {
             "id": 10,
             "firstName": "Chris",
             "lastName": "Johnson",
             "reelThemIn": "Have a plan, but be flexible.",
-            "bio": "I have always had a love for all things tech, and have a strong curiosity about how things work. One memory that still cracks me up a little is my dad would get mad at me for taking the RAM out of his computer to put in the family PC on the weekends after my parents went to bed so I could play cooler games. <br> <br> I was a combat medic in the US Army for 8 years. During those years I learned so much about myself, and how important teamwork is. The opportunity to work in this industry is really a dream come true for me. I am excited for a life full or learning, and a life full of loving my new career path. <br><br> When I am away from the computer I enjoy spending time outdoors back country hiking, running trails, spending time with my beautiful daughter Ellie, volunteering my time, or working on a new art piece.",
+            "bio": "I have always had a love for all things tech, and have a strong curiosity about how things work. One memory that still cracks me up a little is my dad would get mad at me for taking the RAM out of his computer to put in the family PC on the weekends after my parents went to bed so I could play cooler games. <br> <br> I was a combat medic in the US Army for 8 years. During those years I learned so much about myself, and how important teamwork is. The opportunity to work in this industry is really a dream come true for me. I am excited for a life full of learning, and a life full of loving my new career path. <br><br> When I am away from the computer I enjoy spending time outdoors back country hiking, running trails, spending time with my beautiful daughter Ellie, volunteering my time, or working on a new art piece.",
             "github": "https://github.com/christopherjohnson1",
             "linkedIn": "https://www.linkedin.com/in/christopher-johnson1/",
             "portfolio": "http://www.chrisjdev.com",
             "email": "christopherjohnson1@gmail.com",
             "proImg": "ChrisJohnson.png",
-            "funImg": "ChrisJohnson.png"
+            "funImg": "chris_johnson_fiery_gizzard_fun.PNG",
+            "frontend": "https://youtu.be/2V5Pd-vyBP4",
+            "backend": "",
+            "resume": "chris_johnson_software_developer_resume.pdf"
         },
         {
             "id": 11,
@@ -151,10 +184,13 @@
             "bio": "Joining the military has always been a dream of mine. The discipline I've developed in the service has translated well into the complex problem-solving world of Web Development. I'm always ready and willing to take on the task at hand.",
             "github": "https://github.com/michaelc321",
             "linkedIn": "https://www.linkedin.com/in/michaelc321/",
-            "portfolio": "",
+            "portfolio": "https://michaelc321.github.io/",
             "email": "michaelc321@yahoo.com",
             "proImg": "MichaelChisholm.png",
-            "funImg": "MichaelChisholm.png"
+            "funImg": "MichaelChisholm.png",
+            "frontend": "https://www.youtube.com/watch?v=L-Xi3I9i9DQ&feature=youtu.be",
+            "backend": "",
+            "resume": "MichaelChisholmResume.pdf"
         },
         {
             "id": 12,
@@ -167,20 +203,26 @@
             "portfolio": "https://austinphy.com/",
             "email": "ForHire@austinphy.com",
             "proImg": "AustinPhy.png",
-            "funImg": "AustinPhy_Fun.jpg"
+            "funImg": "AustinPhy_Fun.jpg",
+            "frontend": "https://youtu.be/SNHmoBi_fhc",
+            "backend": "",
+            "resume": "AustinPhyResume.pdf"
         },
         {
             "id": 13,
             "firstName": "Emily",
             "lastName": "Hartzell",
-            "reelThemIn": "You are braver than you believe, stronger than you seem, and smarter than you think -Christopher Robin",
+            "reelThemIn": "\"You are braver than you believe, stronger than you seem, and smarter than you think\" -Christopher Robin",
             "bio": "Musician  and teacher now turned computer programmer. With years of creative experience and a fresh programming education, I’m able to incorporate my creative problem solving skills into my work. With a drive to continually learn and an eagerness to collaborate with others, I am excited to continue the adventure into my career in software development.",
             "github": "https://github.com/egeehartz",
             "linkedIn": "https://www.linkedin.com/in/emilyhartzell",
-            "portfolio": "",
+            "portfolio": "https://egeehartz.github.io/",
             "email": "emily.g.hartzell@gmail.com",
             "proImg": "EmilyHartzell.png",
-            "funImg": "EmilyHartzell.png"
+            "funImg": "EmilyHartzell.png",
+            "frontend": "https://youtu.be/f_bwBwbRkGI",
+            "backend": "",
+            "resume": "EmilyHartzellResume.pdf"
         },
         {
             "id": 14,
@@ -190,10 +232,13 @@
             "bio": "Information is the new oil and I'm the guy to help you get that new oil to your clients. My love of all things tech and innovation is what brought me here. Some how for 28 years I never touched code, and the moment I did I experienced a lightbulb moment and knew \"this is it\". Before code I worked almost exclusively blue collar jobs such as delivering mail, working in a chicken plant, and moving furniture. Hiring me means hiring someone who is willing to get their hands dirty and will do what it takes to get things done. When I'm not coding I enjoy video games, basketball, and disc golf. Reach out if you're interested in me or in learning the finer points of the spin putt versus the push putt",
             "github": "https://github.com/connorblakeney",
             "linkedIn": "https://www.linkedin.com/in/connor-blakeney/",
-            "portfolio": "",
+            "portfolio": "https://connorblakeney.github.io/",
             "email": "connorblakeney@yahoo.com",
             "proImg": "ConnorBlakeney.png",
-            "funImg": "ConnorBlakeney.png"
+            "funImg": "ConnorBlakeney.png",
+            "frontend": "https://youtu.be/AxI8TO91ZUM",
+            "backend": "",
+            "resume": "Connor_Blakeney_Resume.pdf"
           },
           {
             "id": 15,
@@ -203,10 +248,13 @@
             "bio": "After many years of working as a library manager serving in public-facing and managerial roles, I wanted a change. Working in that sector gave me valuable experience in problem-solving, team building, and goal-oriented work, whether individually or within a group. These lessons, combined with my lifelong love of technology and computing, have allowed me to combine my curiosity, problem-solving skills, and ability to work within a team in order to make tangible improvements to applications and websites. I am excited to begin this new career and see where the many opportunities in software development take me.",
             "github": "https://github.com/jmskinne",
             "linkedIn": "https://www.linkedin.com/in/james-m-skinner",
-            "portfolio": "",
+            "portfolio": "https://www.markskinner.co",
             "email": "jmskinne@gmail.com",
             "proImg": "MarkSkinner.png",
-            "funImg": "MarkSkinner.png"
+            "funImg": "MarkSkinner.png",
+            "frontend": "https://youtu.be/0uhB9p3mquQ",
+            "backend": "",
+            "resume": "MarkSkinnerFinal.pdf"
         },
         {
             "id": 16,
@@ -219,7 +267,10 @@
             "portfolio": "https://gwynne-meeks.web.app/",
             "email": "meeks.gwynne@gmail.com",
             "proImg": "GwynneMeeks.png",
-            "funImg": "GwynneMeeks.png"
+            "funImg": "GwynneMeeks.png",
+            "frontend": "https://www.youtube.com/watch?v=r8AX1gAZdcg&feature=youtu.be",
+            "backend": "",
+            "resume": "Gwynne -- Resume.pdf"
         },
         {
             "id": 17,
@@ -229,10 +280,13 @@
             "bio": "Hailing from Houston TX, home of everyone's favorite sports franchises. Flirted with the tech world ever since graduating as an English major, including stints at startups in Austin and Chicago, but it's getting pretty serious between us recently. Pastimes include faking jazz (will play for open bar tab) and going for long runs whenever my body isn't totally failing me.",
             "github": "https://github.com/gavinschriver",
             "linkedIn": "https://www.linkedin.com/in/gavinschriver/",
-             "portfolio": "",
+             "portfolio": "https://gavinschriver.github.io/",
             "email": "alexanderschriver@gmail.com",
             "proImg": "GavinSchriver.png",
-            "funImg": "GavinSchriver.png"
+            "funImg": "GavinSchriverFun.png",
+            "frontend": "https://www.youtube.com/watch?v=MSavUJ4yMZs",
+            "backend": "",
+            "resume": "GavinSchriverResume.pdf"
         },
         {
             "id": 18,
@@ -245,7 +299,10 @@
             "portfolio": "https://heymonicakay.github.io",
             "email": "hey@monicakay.dev",
             "proImg": "MonicaKayProvence.png",
-            "funImg": "MonicaKayProvence_Fun.png"
+            "funImg": "MonicaKayProvence_Fun.png",
+            "frontend": "",
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 19,
@@ -258,7 +315,10 @@
             "portfolio": "https://travisbrigman.dev/",
             "email": "travis1000@icloud.com",
             "proImg": "TravisBrigman.png",
-            "funImg": "TravisBrigman.png"
+            "funImg": "TravisBrigman.png",
+            "frontend": "",
+            "backend": "",
+            "resume": "TravisBrigman-V3.1.pdf"
         },
         {
             "id": 20,
@@ -271,7 +331,10 @@
             "portfolio": "https://raparker88.github.io/RebeccaParker.github.io/",
             "email": "Raparker88@gmail.com",
             "proImg": "RebeccaParker.png",
-            "funImg": "RebeccaParker.png"
+            "funImg": "RebeccaParker.png",
+            "frontend": "https://drive.google.com/file/d/1ZBC77Ko4Er3m7rQuKTS7sDgNw8dWESay/view",
+            "backend": "",
+            "resume": "RebeccaParkerV4.pdf"
         },
         {
             "id": 21,
@@ -284,20 +347,26 @@
             "portfolio": "https://www.lukezvada.com",
             "email": "lukepzvada@gmail.com",
             "proImg": "LukeZvada.png",
-            "funImg": "LukeZvada.png"
+            "funImg": "LukeZvadaFUNphoto.JPG",
+            "frontend": "https://youtu.be/zSTCjRObvec",
+            "backend": "",
+            "resume": "LukeZvadaResume.pdf"
         },
         {
             "id": 22,
             "firstName": "Pete",
             "lastName": "Stewart",
             "reelThemIn": "\"If no mistake you have made, losing you are.\" - Yoda",
-            "bio": "After managing to survive a declining music industry and maintain a successful career as a producer and engineer for several years, I made a life-changing decision to change paths and pursue software development. I've always been fascinated by technology and programming, having built computers and written countless workflow-improving macros during my career of constantly using audio software, so the switch in direction was a natural one. One of the most exciting aspects of my journey to becoming a developer has been discovering the many similarities in skillsets required to produce music and to write code. I love being able to use my creative and problem-solving abilities in the entire process of building, designing and improving software. Learning to program has given me a renewed sense of satisfaction and inspiration, as well as a strong desire to always continue acquiring more knowledge and skills.",
+            "bio": "After managing to survive a declining music industry for several years and maintain a successful career as a producer and engineer, I made a life-changing decision to change paths and pursue software development. I've always been fascinated by technology, having built computers and written countless workflow-improving macros during my career, so the switch in direction was a natural one. One of my favorite aspects of this journey has been discovering the many similarities in skillsets required to produce music and to write code. I love being able to use my creative and problem-solving abilities to design, build and improve software, as well as working with team members to reach a quality outcome. Learning to program has given me a renewed sense of satisfaction and inspiration…and a strong desire to continually acquire more knowledge and skills throughout my new career.",
             "github":   "https://github.com/petestewart",
             "linkedIn": "https://www.linkedin.com/in/peteastewart",
             "portfolio": "https://petestewart.dev/",
             "email": "petestew@gmail.com",
             "proImg": "PeteStewart.png",
-            "funImg": "PeteStewart_Fun.png"
+            "funImg": "PeteStewart_Fun.png",
+            "frontend": "https://youtu.be/emEoPV7kLmU",
+            "backend": "",
+            "resume": "PeteStewart_resume.pdf"
         },
         {
             "id": 23,
@@ -310,33 +379,42 @@
             "portfolio": "https://samjohnson.dev/",
             "email": "shjohnson4996@gmail.com",
             "proImg": "SamJohnson.png",
-            "funImg": "SamJohnson.png"
+            "funImg": "SamJohnson.png",
+            "frontend": "https://youtu.be/j46d9IXm6ks",
+            "backend": "",
+            "resume": "Sam_Johnson_Resume.pdf"
         },
         {
             "id": 24,
             "firstName": "Brett",
             "lastName": "Derrington",
-            "reelThemIn": "Passionate Consumer of Content",
-            "bio": "I love learning new things, exploring new places, and getting better at the things I already do. This is certainly reflected in the hobbies I pursue on my own time: Tennis, reading, video games, and traveling. Software development and programming and fields that are always moving forward and changing, and that excites me to no end.",
+            "reelThemIn": "Passionate Consumer of Content, Cosmere Scholar",
+            "bio": "I love learning new things, exploring new places, and getting better at the things I already do. This is certainly reflected in the hobbies I pursue on my own time: Tennis, reading, video games, and traveling. Figuring out how to connect with someone new, discovering how best to communicate so that your idea gets across most effectively, is a something I find a lot of passion in. Journey before destination. ",
             "github": "https://github.com/bmd682",
             "linkedIn": "https://linkedin.com/in/brett-derrington",
             "portfolio": "https://https://bmd682.github.io/",
             "email": "brett.derrington@gmail.com",
             "proImg": "BrettDerrington.png",
-            "funImg": "BrettDerrington.png"
+            "funImg": "BrettDerrington.png",
+            "frontend": "https://youtu.be/atucgnazTQo",
+            "backend": "",
+            "resume": "BrettDerringtonResumeV4.pdf"
         },
-        {
+        { 
             "id": 25,
             "firstName": "Ha",
             "lastName": "Nguyen",
-            "reelThemIn": "Nerdy By Nature",
-            "bio": "My interest in tech comes from years of experience in various industries, collaborating with development teams to accommodate changing business needs. I have an eye and appreciation for application styling and design, but what I enjoy most about being a developer is leveraging technology in creative ways to drive continuous improvements.",
+            "reelThemIn": "Nerdy By Nature.",
+            "bio": "My interest in tech comes from years of collaboration with development teams to keep pace with changing business needs. I have extensive experience in finance and analytics, working across multiple industries including digitally focused media and marketing, manufacturing and healthcare. With an eye and appreciation for styling and design, I greatly enjoy finding creative ways to drive continuous improvements for the end user.",
             "github": "https://github.com/justha",
             "linkedIn": "https://www.linkedin.com/in/ha-wyn/",
-            "portfolio": "",
+            "portfolio": "https://hanguyen.io/",
             "email": "justha.dev@gmail.com",
             "proImg": "HaNguyen.png",
-            "funImg": "HaNguyen.png"
+            "funImg": "HaNguyen.png",
+            "frontend": "https://youtu.be/4dIuNsFrRjQ",
+            "backend": "",
+            "resume": ""
         },
         {
             "id": 26,
@@ -346,10 +424,13 @@
             "bio": "As a Software Developer transitioning from the automotive tech industry, I liked breaking things down and putting them back together. I needed to find something that brought me a new challenge every day. That's when I discovered software development, where I could continuously build, learn, and design new things. ",
             "github": "https://github.com/Michaelr-Tyler",
             "linkedIn": "https://www.linkedin.com/in/michaelr-tyler/",
-             "portfolio": "",
+             "portfolio": "https://Michaelr-tyler.github.io",
             "email": "Miketylerabc@gmail.com",
-            "proImg": "MichaelTyler.png",
-            "funImg": "MichaelTyler.png"
+            "proImg": "MichaelTylerHeadshot.png",
+            "funImg": "MichaelTylerHeadshot.png",
+            "frontend": "https://youtu.be/aMkaNkKH-04",
+            "backend": "",
+            "resume": "MichaelTyler-FullStack-Developer-Resume.pdf"
         }
     ]
 }

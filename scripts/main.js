@@ -46,6 +46,13 @@ function cohortMembers(list) {
       <i class="fas fa-globe fa-2x contactIcons"></i>
       </a>`
     }
+    //if student doesn't have a frontend demo then don't display the icon
+    if (item.frontend != "") {
+
+      studentContact += `<a href=${item.frontend} target="_blank">
+      <i class="fab fa-youtube fa-2x contactIcons"></i>
+      </a>`
+    }
     //if student doesn't have a github site then don't display the icon
     if (item.github != null) {
 
@@ -77,7 +84,18 @@ function cohortMembers(list) {
     if (item.reelThemIn != null) {
       studentInfo += `<p class="card-text">${item.reelThemIn}</p>`
     }
+
+    let resumeButton = `<div class="resumeDiv">`
+    //if student didn't provide a resume then nothing is displayed
+    if (item.resume != "") {
+      resumeButton += `<center><button type="button" class="btn btn-outline-primary title-font bottom resumeButton" data-toggle="modal" data target="#cohortMember${item.id}">
+                  <a class="resumeHyperlink" href="images/resumes/${item.resume}" download="${item.lastName}Resume">
+                 Download Resume</a>
+              </button></center></div>`
+    }
     studentInfo += studentContact
+    studentInfo += resumeButton
+
     //if a student doesn't have a bio, then the learn more button doesn't appear and a modal isn't created
     if(item.bio != null){
 
