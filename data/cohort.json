@@ -12,7 +12,7 @@
             "email": "dylanthk@gmail.com",
             "proImg": "DylanRowe.png",
             "funImg": "DylanRowe.png",
-            "frontend": "",
+            "frontend": "https://share.vidyard.com/watch/UwcePpELpQpgcAeFD2UWiu",
             "backend": "",
             "resume": "Dylan Rowe- Resume.pdf"
         },
@@ -108,7 +108,7 @@
             "email": "a.redford.tilson@gmail.com",
             "proImg": "ArdisTilson.png",
             "funImg": "ArdisTilson.png",
-            "frontend": "",
+            "frontend": "https://youtu.be/D1_ZlMSC7AM",
             "backend": "",
             "resume": "Ardis Tilson Resume V5.pdf"
           },
@@ -140,7 +140,7 @@
             "email": "BFORDCPA@gmail.com",
             "proImg": "BryanFord.png",
             "funImg": "BryanFord.png",
-            "frontend": "",
+            "frontend": "https://youtu.be/Zq23xhAXQlI",
             "backend": "",
             "resume": "Bryan Ford Resume.pdf"
         },
@@ -332,7 +332,7 @@
             "email": "Raparker88@gmail.com",
             "proImg": "RebeccaParker.png",
             "funImg": "RebeccaParker.png",
-            "frontend": "",
+            "frontend": "https://drive.google.com/file/d/1ZBC77Ko4Er3m7rQuKTS7sDgNw8dWESay/view",
             "backend": "",
             "resume": "RebeccaParkerV4.pdf"
         },
@@ -400,19 +400,19 @@
             "backend": "",
             "resume": "BrettDerringtonResumeV4.pdf"
         },
-        {
+        { 
             "id": 25,
             "firstName": "Ha",
             "lastName": "Nguyen",
-            "reelThemIn": "Nerdy By Nature",
-            "bio": "My interest in tech comes from years of experience in various industries, collaborating with development teams to accommodate changing business needs. I have an eye and appreciation for application styling and design, but what I enjoy most about being a developer is leveraging technology in creative ways to drive continuous improvements.",
+            "reelThemIn": "Nerdy By Nature.",
+            "bio": "My interest in tech comes from years of collaboration with development teams to keep pace with changing business needs. I have extensive experience in finance and analytics, working across multiple industries including digitally focused media and marketing, manufacturing and healthcare. With an eye and appreciation for styling and design, I greatly enjoy finding creative ways to drive continuous improvements for the end user.",
             "github": "https://github.com/justha",
             "linkedIn": "https://www.linkedin.com/in/ha-wyn/",
-            "portfolio": "",
+            "portfolio": "https://hanguyen.io/",
             "email": "justha.dev@gmail.com",
             "proImg": "HaNguyen.png",
             "funImg": "HaNguyen.png",
-            "frontend": "",
+            "frontend": "https://youtu.be/4dIuNsFrRjQ",
             "backend": "",
             "resume": ""
         },
