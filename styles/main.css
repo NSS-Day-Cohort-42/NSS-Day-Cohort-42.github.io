@@ -1,182 +1,221 @@
+/* All button elements will have pointer cursor on hover */
+button,
+.pointer {
+    cursor: pointer;
+}
+.btn-outline-primary{
+    color: #238193!important;
+    border-color: #238193!important;
+}
+.btn-outline-primary:hover{
+    color: white!important;
+    background-color: #238193!important;
+}
+/* code element styling */
+code {
+    color: black;
+}
+
+/* p element styling */
 p {
     font-family: 'Barlow', sans-serif;
-  }
+}
 
-  html, body {
-      max-width: 100%;
-      overflow-x: hidden;
-      background: url("../images/background.jpg") fixed no-repeat;
-      background-size: 100%;
-      background-color: black;
-  }
+/* html and body element styling */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background: url("../images/background.jpg") fixed no-repeat;
+    background-color: transparent;
+    background-size: cover;
+}
 
-  blockquote{
-      margin-left: 40px;
-      margin-right: 40px;
-      background-color: #ddd;
-      padding: 2em;
-  }
+/* ------------------------------------------- NAVBAR */
 
-  .navbar{
-      background-color: rgb(55, 55, 56);
-      padding: 15px;
-  }
-  .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
-      background: white !important;
-      padding: 5px;
-      height: 10%;
-      position: fixed;
-      top: 0;
-      right: 0;
-      left: 0;
-  }
-  .navbar-brand{
-      display: flex;
-  }
-  .nav-spacing {
+/* class 'navbar' */
+.navbar{
+    background: white;
+    display: flex;
+    padding: 1rem;
+}
+
+/* Styles navbars with ALL of these classes => MAIN NAVBAR */
+.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+    background: white;
+    height: 9%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+/* --------------------LOGO */
+.logo-link{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+/* image inside 'logo-link' */
+.logo {
+    object-fit: contain;
+    object-position: center;
+    height: 50px;
+    width: 50px;
+}
+
+/* --------------------RSVP BUTTON */
+.btn--rsvp {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 170px;
+    height: 45px;
+    border: 2px solid #238193;
+    border-radius: .5rem;
+    font-weight: 700;
+    color: #238193;
+    transition: .35s;
+}
+
+.btn--rsvp:hover {
+    color: rgba(255, 255, 255, 0.92);
+    background-color: #238193;
+}
+
+.btn-left {
+    width: 39%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.btn-spacer {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+    width: 1%;
+    height: 20px;
+    background-color: #238193;
+    transition: .35s;
+}
+
+.btn--rsvp:hover > .btn-spacer {
+    background-color: rgba(255, 255, 255, 0.92) !important;
+}
+
+.btn-right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.jan,
+.dd {
+    transition: .35s;
+    text-align: center;
+    width: 100%;
+    align-content: center;
+}
+
+/* Adds margin to the right side of all Navbar list items */
+.nav-spacing {
     margin-right: 2em;
-  }
+}
 
-  #cohort42{
-      display: inline-block;
-      color: #238193;
-      margin-right: 1rem;
-  }
+.cohort42{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 15%;
+}
 
-  #jumbheader{
-      box-shadow: 2px 2px 2px rgb(167, 166, 166);
-      background-color: #238193!important;
-      color: lightgray;
+.cohort42-text {
+    color: #238193;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    min-width: 145px;
+}
 
-  }
-  .header-text{
-      margin: 0 auto;
-      padding-top: 10px;
-      font-weight: bold;
-      height: 50px;
-      color: white;
+/* space between rsvp btn and nav links */
+.top-nav-spacer {
+    width: 20%;
+    height: 100%;
+}
 
-  }
+.image-spacer {
+    width: 100%;
+    height: 9%;
+}
 
-  .title-font {
-      text-align: center;
-      vertical-align: middle;
-  }
+/* selects the image element inside of the jumbotron div */
+.group-pic-wrapper img{
+    object-fit: cover;
+    object-position: center;
+}
 
-  .logo{
-      height: 50px;
-  }
+.lil-nav-wrapper {
+    width: 100%;
+    height: 5%;
+}
 
+.lil-nav-wrapper.devs {
+    margin-bottom: 1rem;
+}
 
-  .jumbotron.jumbotron-fluid{
-      background: none;
-      padding-top: none;
+.lil-nav-wrapper.tech {
+    margin-bottom: 3rem;
+}
 
-     }
-  .jumbotron.jumbotron-fluid img{
-      background: none;
-      width:100%;
-     }
+.lil-nav-wrapper.thanks {
+    margin: 3rem 0rem;
+}
 
-  main {
-      margin-bottom: 20px;
-      margin-top: -30px;
-      width: 100%;
-      overflow-y: hidden;
-      overflow-x: hidden;
-    }
+.lil-nav-wrapper.footer {
+    margin-top: 3rem;
+}
 
-  .row{
-      justify-content: center;
-  }
+/* id to override styling on smaller navbars */
+#jumbheader{
+    box-shadow: 2px 2px 2px rgb(167, 166, 166);
+    background-color: #238193!important;
+    color: lightgray;
+}
 
-  .navbar-collapse{
-      justify-content: flex-end;
-      font-weight: bold;
-      text-transform: uppercase;
-  }
+.header-text{
+    margin: 0 auto;
+    font-weight: bold;
+    height: 50px;
+    color: white;
+}
 
-  .col-md-3.cohortMems{
-      border: 1px solid lightgray;
-      border-radius:10px;
-      box-shadow: 2px 2px 2px lightgray;
-      margin: 10px;
-      margin-bottom: 25px;
-      background: white;
-  }
+.modal-title,
+.modal-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-items: center;
+    text-align: center;
+}
 
-  .col-sm-2.technologies{
-      border: none;
-      border-radius: none;
-      box-shadow: none;
-  }
+.invisible {
+    visibility:hidden;
+}
 
-  .technos, .words{
-      margin-top: -55px;
-      background: white;
-      padding:20px;
-      border-radius: 20px;
-  }
-
-  .techs{
-      width: 70px;
-      margin: 20px 0px;
-    }
-
-  .words{
-      padding:50px;
-  }
-
-  .no-gutters {
-      margin-right: 0;
-      margin-left: 0;
-    }
-
-  .card-img-top{
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-    }
-
-  .col,
-  [class*="col-"] {
-      padding-right: 0;
-      padding-left: 0;
-    }
-
-  .modal-body{
-      display: block;
-    }
-
-    .studentContact{
-        text-align: center;
-        display: flex;
-        justify-content: space-evenly;
-        -webkit-justify-content: space-evenly;
-        margin-bottom: .75rem;
-    }
-
-    .contactIcons{
-        color: #238193;
-    }
-    .contactIcons:hover{
-        transform: scale(1.2);
-    }
-
-    .modal-header{
-      background-color: lightgray!important;
-      color: #238193;
-    }
-
-    .modal-body img{
-      width: 50%;
-      height: 50%;
-      box-shadow: 3px 3px 5px #cacaca;
-      border-radius: 10px;
-    }
-
-    .backButton{
-        margin-bottom: 1.5rem;
-    }
+.student-name-modal {
+    display: flex;
+    width: 80%;
+    justify-items: center;
+}
 
   .navbar.navbar-light.bg-light.footer{
       margin-top:10px;
@@ -274,88 +313,288 @@ p {
     transition: .35s;
     cursor: pointer;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    align-content: center;
-    padding: -4px !important;
+    justify-self: right;
+    align-self: right;
+    text-align: right;
+    vertical-align: middle;
+}
 
-  }
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 
-  .btn--rsvp:hover {
-    color: rgba(255, 255, 255, 0.92) !important;
-    background-color: rgba(33, 37, 41, 0.95);
-    width: 170px;
-    height: 44px;
+.inner-main {
     display: flex;
     flex-flow: row nowrap;
+    width: 100%
+}
+
+.inner-main.thankyous,
+.inner-main.technology {
+    margin-top: 3rem;
+}
+
+.right-spacer-main,
+.left-spacer-main {
+    width: 10%;
+}
+
+.container {
+    width: 80%;
+}
+
+
+.row {
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Student Card */
+.col-md-3.cohortMems{
+    display: flex;
+    flex-flow: column nowrap;
     justify-content: space-evenly;
     align-content: center;
-    padding: -4px !important;
-  }
+    border: 1px solid lightgray;
+    border-radius: .5rem;
+    box-shadow: 2px 2px 2px lightgray;
+    margin: 2%;
+    margin-bottom: 5%;
+    background: white;
+    min-width: 235px;
+    max-width: 300px;
+}
 
-  .btn-left {
-      width: 30%;
-      display: flex;
-      align-content: center;
-      justify-content: center;
-      text-align: center;
-      padding-right: .25rem;
-  }
-  .btn-spacer {
-      width: 2px;
-      margin-left: .35rem;
-      display: flex;
-      align-self: center;
-      justify-self: center;
-      justify-items: center;
-      text-align: center;
-      height: 20px;
-      background-color: rgba(33, 37, 41, 0.95);
-      transition: .45s;
-  }
+.col-sm-2.technologies{
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+}
 
-  .btn--rsvp:hover > .btn-spacer {
-    background-color: rgba(255, 255, 255, 0.92) !important;
-  }
+.technos, .words{
+    margin-top: -55px;
+    background: white;
+    padding:20px;
+    border-radius: 20px;
+}
 
-  .btn-right{
-    width: 65%;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+.techs{
+    width: 70px;
+    margin: 20px 0px;
+}
+
+.words{
+    padding:50px;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.col,
+[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.modal-body{
+    display: block;
+}
+
+.studentContact{
     text-align: center;
-    padding-left: .25rem;
-  }
+    display: flex;
+    justify-content: space-evenly;
+    -webkit-justify-content: space-evenly;
+    margin-bottom: .75rem;
+}
 
-    .jan {
-        transition: .35s;
-        text-align: center;
+.contactIcons{
+    color: #238193;
+}
+.contactIcons:hover{
+    transform: scale(1.2);
+}
+
+
+
+/* -------------------------------------- "COME SEE OUR DEMO" LINK */
+/* aligns text center */
+.demo-date {
+    text-align: center;
+}
+/* styles hyperlink text */
+.demo-date__link {
+    color: #238193 !important;
+    text-decoration: none !important;
+    transition: .35s;
+}
+/* changes hyperlink text color on hover over demo-date element */
+.demo-date:hover > .demo-date__link {
+    color: #0f5d6d !important;
+}
+
+/* -------------------------ICON SIZE @ 992px - 1200px - Full Screen*/
+@media (min-width: 992px) and (max-width: 1200px){
+    .fa-3x{
+        font-size: 2.5em!important;
+    }
+}
+
+/* -------------------------ICON SIZE @ 768px - 991px - Full Screen*/
+@media (min-width: 768px) and (max-width: 991px){
+    .fa-3x{
+        font-size: 1.5em!important;
+    }
+}
+
+/* -------------------------------------------------- 900px */
+@media (max-width: 900px) {
+    .header-text{
+        margin: 0 auto;
+        height: 30px;
+    }
+    .header-text h2{
+        font-size: 1.5em;
+        margin-top: -10px;
+    }
+    .modal-body{
+        display: block;
+    }
+    .modal-body img{
         width: 100%;
-        align-content: center;
     }
-
-    .dd {
-        transition: .35s;
-        text-align: center;
+    .modal-content {
         width: 100%;
-        align-content: center;
     }
+}
 
-    .resumeHyperlink {
-        text-decoration: none;
-        color: #238193!important;
-    }
+.card-body {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
 
-    .resumeHyperlink:hover {
-        text-decoration: none;
-        color: white!important;
-    }
+/* -------------------------------- RESUME BUTTON  */
+/*  */
+.resumeHyperlink {
+    text-decoration: none !important;
+    color: #238193!important;
+}
+/* breathing room for Download Resume btn */
+.resumeDiv,
+.learnMoreButtonContain {
+    margin-bottom: 1rem;
+}
+/* changes hyperlink text color when hovering over btn element */
+.resumeButton:hover > .resumeHyperlink {
+    color: white!important;
+}
+/*  */
+.resumeButton,
+.detailsButton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-self: flex-end;
+}
 
-    .resumeDiv {
-        margin-bottom: 1rem;;
-    }
+/*---------------------------------------- CARD BODY QUOTE */
+/* quoted text aligns left */
+.quote {
+    text-align: left;
+}
+/* moves the by line to the right side of the card */
+.whosaidthat {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    text-align: right;
+}
+/* italicizes citations */
+.cite {
+    font-style: italic;
+}
+/* scoots the by line a little to the left */
+.scoot {
+    margin-right: 1.5rem;
+}
 
-    .resumeButton:hover > .resumeHyperlink {
-        color: white!important;
-    }
+/* ----------------------------------------- MODAL INFO*/
+/* modal header - contains name and close btn*/
+.modal-header{
+    background-color: lightgray!important;
+    color: #238193;
+    display: flex;
+}
+/* student name inside modal header */
+.student-name-modal {
+    display: flex;
+    justify-content: center;
+    align-contetnt: center;
+}
 
+/* img inside modal -----------FUN IMG */
+.modal-body img{
+    width: 50%;
+    height: 50%;
+    box-shadow: 3px 3px 5px #cacaca;
+    border-radius: 10px;
+}
+/* breating room for the back button */
+.backButton{
+    margin-bottom: 1rem;
+}
+
+/* -------- BIO */
+.bioContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1rem 2rem;
+    text-align: left;
+}
+
+/* ---------------------------------------------- FOOTER */
+
+.navbar.navbar-light.bg-light.footer{
+    font-size: 1em;
+    background-color: #238193!important;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.inner-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-items: center;
+    align-items: center;
+}
+
+.copy {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+/* --------------------------------------- HIDES SCROLLBAR */
+::-webkit-scrollbar {
+    display: none;
+}

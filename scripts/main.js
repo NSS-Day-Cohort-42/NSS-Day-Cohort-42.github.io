@@ -4,12 +4,14 @@ $(function () {
 })
 
 $.ajax({
-  url: "data/cohort.json"
+    url: "data/cohort.json"
 }).done(cohortMembers)
-  .fail(function (error) {
-    console.log("error", error);
-  });
 
+.fail(function (error) {
+    console.log("error", error);
+});
+
+//DEFINE SHUFFLE FUNCTION
 const shuffle = (arr) => {
     //start at the end of the list...
     let currentIndex = arr.length, holdThisForASec, numberOutOfAHat;
@@ -34,116 +36,146 @@ const shuffle = (arr) => {
     //then return the array!
     return arr;
 }
+
+//RENDER COHORT MEMBER LIST
 function cohortMembers(list) {
-  let data = list.cohort;
-  data = shuffle(data)
-  data.forEach(function (item) {
-    let studentContact = `<div class="studentContact">`
-    //if student doesn't have a portfolio site then don't display the icon
-    if (item.portfolio != "") {
+    let data = list.cohort;
+    data = shuffle(data) /* randomize order */
+    data.forEach(item => {
+        let studentContact = `
+            <div class="studentContact">`
 
-      studentContact += `<a href=${item.portfolio} target="_blank">
-      <i class="fas fa-globe fa-2x contactIcons"></i>
-      </a>`
-    }
-    //if student doesn't have a frontend demo then don't display the icon
-    if (item.frontend != "") {
+        if (item.portfolio != "") { /*If PORTFOLIO exists, render INTERNET ICON*/
+            studentContact += `
+                <a href=${item.portfolio} target="_blank">
+                    <i class="fas fa-globe fa-2x contactIcons"></i>
+                </a>`
+        }
 
-      studentContact += `<a href=${item.frontend} target="_blank">
-      <i class="fab fa-youtube fa-2x contactIcons"></i>
-      </a>`
-    }
-    //if student doesn't have a github site then don't display the icon
-    if (item.github != null) {
+        if (item.frontend != "") { /*If FE DEMO exists, render YOUTUBE ICON*/
+            studentContact += `
+                <a href=${item.frontend} target="_blank">
+                    <i class="fab fa-youtube fa-2x contactIcons"></i>
+                </a>`
+        }
 
-      studentContact += `<a href=${item.github} target="_blank">
-      <i class="fab fa-github fa-2x contactIcons"></i>
-      </a>`
-    }
-    //if student doesn't have a linkedin site then don't display the icon
-    if (item.linkedIn != null) {
+        if (item.github != "") { /*If GITHUB exists, render GITHUB ICON*/
+            studentContact += `
+                <a href=${item.github} target="_blank">
+                    <i class="fab fa-github fa-2x contactIcons"></i>
+                </a>`
+        }
 
-      studentContact += `<a href=${item.linkedIn} target="_blank">
-      <i class="fab fa-linkedin fa-2x contactIcons"></i>
-      </a>`
-    }
-    //if student doesn't have an email then don't display the icon
-    if (item.email != null) {
+        if (item.linkedIn != "") { /*If LINKEDIN exists, render LINKEDIN ICON*/
+            studentContact += `
+                <a href=${item.linkedIn} target="_blank">
+                    <i class="fab fa-linkedin fa-2x contactIcons"></i>
+                </a>`
+        }
 
-      studentContact += `<a href=mailto:${item.email} target="_blank">
-              <i class="fas fa-envelope fa-2x contactIcons"></i>
-            </a>`
-    }
-    studentContact += `</div>`
+        if (item.email != null) { /*If EMAIL exists, render EMAIL ICON*/
+            studentContact += `
+                <a href=mailto:${item.email} target="_blank">
+                    <i class="fas fa-envelope fa-2x contactIcons"></i>
+                </a>`
+        }
 
-    let studentInfo = `<div class="col-md-3 cohortMems">
-          <img class="card-img-top" src="images/classmates/${item.proImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;">
-          <div class="card-body">
-            <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>`
-    //if student didn't provide a reelthemin quote then nothing is displayed
-    if (item.reelThemIn != null) {
-      studentInfo += `<p class="card-text">${item.reelThemIn}</p>`
-    }
+        //Close 'studentContact' div
+        studentContact += `
+            </div>`
 
-    let resumeButton = `<div class="resumeDiv">`
-    //if student didn't provide a resume then nothing is displayed
-    if (item.resume != "") {
-      resumeButton += `<center><button type="button" class="btn btn-outline-primary title-font bottom resumeButton" data-toggle="modal" data target="#cohortMember${item.id}">
-                  <a class="resumeHyperlink" href="images/resumes/${item.resume}" download="${item.lastName}Resume">
-                 Download Resume</a>
-              </button></center></div>`
-    }
-    studentInfo += studentContact
-    studentInfo += resumeButton
+        let studentInfo = `
+            <div class="col-md-3 cohortMems">
+                <img class="card-img-top pointer" src="images/classmates/${item.proImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}"/>
+                <div class="card-body">
+                    <h4 class="card-title title-font">
+                        ${item.firstName} ${item.lastName}
+                    </h4>`
 
-    //if a student doesn't have a bio, then the learn more button doesn't appear and a modal isn't created
-    if(item.bio != null){
+        if (item.reelThemIn != "") { /*If QUOTE exists, render QUOTE*/
+            studentInfo += `
+                    <p class="card-text">
+                        ${item.reelThemIn}
+                    </p>`
+        }
 
-    studentInfo += `
-            <center><button type="button" class="btn btn-outline-primary title-font bottom" data-toggle="modal" data-target="#cohortMember${item.id}">
-           Learn More!
-          </button></center>
-          </div>
-        </div>`
-    //modal info
-    studentInfo +=`
-        <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-           <h5 class="modal-title title-font" id="cohortMember${item.id}Label">${item.firstName} ${item.lastName}</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+        studentInfo += studentContact
+
+        if (item.resume != "") { /*If RESUME exists, render RESUME BUTTON*/
+            const resumeButton = `
+                    <div class="resumeDiv">
+                        <button type="button" class="btn btn-outline-primary title-font bottom resumeButton" data-toggle="modal" data target="#cohortMember${item.id}" title="Download Resume">
+                            <a class="resumeHyperlink" href="images/resumes/${item.resume}" download="${item.lastName}_Resume">
+                                Download Resume
+                            </a>
+                        </button>
+                    </div>`
+            studentInfo += resumeButton
+        }
+
+        if(item.bio != "") { /*If BIO exists, render LEARN MORE BTN, MODAL, & BACK BTN*/
+            const learnMoreButton = `
+                    <div class="learnMoreButtonContain">
+                        <button type="button" class="btn btn-outline-primary title-font bottom detailsButton" data-toggle="modal" data-target="#cohortMember${item.id}" title="See Details">
+                            Learn More!
+                        </button>
+                    </div>`
+
+            studentInfo += learnMoreButton
+
+            const modalInfo = `
+                <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="student-name-modal">
+                                    <h5 class="modal-title title-font" id="cohortMember${item.id}Label">
+                                        ${item.firstName} ${item.lastName}
+                                    </h5>
+                                </div>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span class="close-modal" aria-hidden="true">
+                                        &times;
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <center>
+                                    <img src="images/classmates/${item.funImg}" alt="${item.firstName} ${item.lastName} fun"/>
+                                </center>
+                                <div class="bioContainer">
+                                    ${item.bio}
+                                </div>
+                            </div>`
+
+            studentInfo += modalInfo /*adds modal info*/
+            studentInfo += studentContact /*adds contact info*/
+
+            // creates back button
+            const backButton = `
+                            <div class="backButton">
+                                <center>
+                                    <button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
+                                        Back
+                                    </button>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>` /*closes modal dialog div*/
+
+            studentInfo += backButton
+        }
+        else { /*closes cohortMems and card-body divs*/
+            studentInfo += `
+                </div>
             </div>
-            <div class="modal-body">
-            <center><img src="images/classmates/${item.funImg}" alt="${item.firstName} ${item.lastName} fun"/></center><br>
             `
+        }
 
-    studentInfo += studentContact
-
-    studentInfo += `
-
-    ${item.bio}
-    </div>
-    <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
-      Back
-              </button></center>
-
-          </div >
-        </div >
-      </div > `;
-    } else {
-      studentInfo += `
-      </div>
-        </div>
-        `
-    }
-    document.getElementById("cohort").innerHTML += studentInfo;
-
-  });
-};
-
+        document.getElementById("cohort").innerHTML += studentInfo;
+    })
+}
 
 $.ajax({
   url: "data/techs.json"
@@ -153,14 +185,16 @@ $.ajax({
   });
 
 function techs(list) {
-  let data = list.techs;
-  data.forEach(function (item) {
-    document.getElementById("techs").innerHTML +=
-      `<div class="col-sm-2 technologies">
-         <center><a href="${item.link}" target="_blank"><img class="techs" src="images/techs/${item.image}" alt="${item.name}" data-toggle="tooltip" data-placement="top" title="${item.name}"></a><br>
-         </center>
-      </div>`;
-  });
-};
-
-
+    let data = list.techs;
+    data.forEach(item => {
+        document.getElementById("techs").innerHTML += `
+            <div class="col-sm-2 technologies">
+                <center>
+                    <a href="${item.link}" target="_blank">
+                        <img class="techs" src="images/techs/${item.image}" alt="${item.name}" data-toggle="tooltip" data-placement="top" title="${item.name}"/>
+                    </a>
+                <br />
+                </center>
+            </div>`
+    })
+}

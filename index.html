@@ -14,150 +14,205 @@
 </head>
 
 <body>
-    <!-- Navigation and Header Bar -->
-    <header>
+    <header> <!--Header and Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <a class="navbar-brand" href="/">
-                <img src="images/nsslogo.png" class="d-inline-block align-top logo" alt="Cohort 42 Logo">
-            </a><h2 id="cohort42">Cohort 42</h2>
-            <a
+            <!--LOGO-->
+            <a class="logo-link" href="#">
+                <img src="images/nsslogo.png" class="logo" alt="Cohort 42 Logo"/>
+            </a>
+
+            <!--COHORT-->
+            <div class="cohort42">
+                <h2 class="cohort42-text">
+                    Cohort 42
+                </h2>
+            </div>
+
+            <!--RSVP BUTTON-->
+            <div
             id="hoverButton"
-            class="nav-link btn--rsvp"
+            class="btn--rsvp pointer"
             href="https://www.eventbrite.com/e/nss-virtual-demo-day-web-development-cohorts-42-e11-tickets-131410537455"
             target="_blank"
             onmouseenter="ShowDate()"
             onmouseleave="DemoDay()">
-                <span class="btn-left">
-                    RSVP
-                </span>
+                <div class="btn-left">
+                    <span class="jan">RSVP</span>
+                </div>
                 <div class="btn-spacer"></div>
-                <span id="btnRight" class="btn-right">
-                    Demo Day
-                </span>
-            </a>
+                <div id="btnRight" class="btn-right">
+                    <span class="dd">Demo Day</span>
+                </div>
+            </div>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-                aria-expanded="false" aria-label="Toggle navigation">
+            <div class="top-nav-spacer"></div>
+
+            <!-- Toggler/collapsibe Button -->
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item nav-spacing title-font">
-                        <a class="nav-link" href="#thedevelopers">Developers</a>
+                        <a class="nav-link" href="#thedevelopers">
+                            Developers
+                        </a>
                     </li>
                     <li class="nav-item nav-spacing title-font">
-                        <a class="nav-link" href="#techsection">Technologies</a>
+                        <a class="nav-link" href="#techsection">
+                            Technologies
+                        </a>
                     </li>
                     <li class="nav-item nav-spacing title-font">
-                        <a class="nav-link" href="#thankyou">Thanks</a>
+                        <a class="nav-link" href="#thankyou">
+                            Thanks
+                        </a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <!-- Group photos -->
+    <!--GROUP PHOTO CONTAINER-->
+    <div class="group-pic-wrapper">
+        <img class="d-block w-100 group-zoom-pic" src="images/CohortGroupPhotos/C42GroupPhoto.png" alt="Group Photo">
+    </div>
 
-    <div class="jumbotron jumbotron-fluid">
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <img class="d-block w-100" src="images/CohortGroupPhotos/C42GroupPhoto.png" alt="Group Photo">
-        </div>
-
-        <a id="thedevelopers"></a>
+    <!--DEVELOPERS BAR-->
+    <a class="invisible" id="thedevelopers"></a>
+    <div class="lil-nav-wrapper devs">
         <nav id="jumbheader" class="navbar navbar-light bg-light">
             <span class="header-text">
-                <h2 class="title-font">The Developers</h2>
+                <h2 class="title-font styleHeaders">
+                    The Developers
+                </h2>
             </span>
         </nav>
     </div>
 
+
     <main>
-        <!-- developer section -->
-        <div class="container">
-            <!-- Do not remove H1 tag, it may be moved higher on the page. -->
-            <h1 class="text-center">Nashville Software School Cohort 42</h1>
-            <!-- update href to be the exact link for your demo day's Eventbrite page -->
-            <h3 id="demo-date">
-                <a href="https://www.eventbrite.com/e/nss-virtual-demo-day-web-development-cohorts-42-e11-tickets-131410537455" target="_blank">
-                    Come see us demo on January 12th!
-                </a>
-            </h3>
-            <div id="cohort" class="row">
-                <!-- content inserted from the cohort.json file -->
+        <!--DEVELOPER SECTION-->
+        <div class="inner-main">
+            <div class="left-spacer-main"></div> <!--SPACER (do not remove)-->
+            <div class="container">
+                <h1 class="text-center"> <!--DON'T REMOVE H1 TAG (it'll break if you do)-->
+                    Nashville Software School Cohort 42
+                </h1>
+                <h3 class="demo-date">
+                    <a class="demo-date__link" href="https://www.eventbrite.com/e/nss-virtual-demo-day-web-development-cohorts-42-e11-tickets-131410537455" target="_blank"> <!--REPLACE HREF WITH YOUR EVENTBRITE URL-->
+                        Come see us demo on January 12th!
+                    </a>
+                </h3>
+                <div id="cohort" class="row">
+                <!--DEVS APPEAR HERE-->
+                </div>
             </div>
+            <div class="right-spacer-main"></div> <!--SPACER (do not remove)-->
         </div>
 
-        <!-- technology section -->
+        <!--TECH BANNER-->
         <a id="techsection"></a>
-        <div class="jumbotron jumbotron-fluid sm-width">
+        <div class="lil-nav-wrapper tech"> <!--WRAPPER (do not remove)-->
             <nav id="jumbheader" class="navbar navbar-light bg-light">
                 <span class="header-text">
-                    <h2 class="title-font">Technologies</h2>
+                    <h2 class="title-font">
+                        Technologies
+                    </h2>
                 </span>
             </nav>
-        </div>
-        <div class="container technos">
-            <div id="techs" class="row">
-                <!-- content inserted from the techs.json file -->
-            </div>
         </div>
 
-        <!-- thanks section -->
+        <!--TECH SECTION-->
+        <div class="inner-main technology">
+            <div class="left-spacer-main"></div> <!--SPACER (do not remove)-->
+            <div class="container technos">
+                <div id="techs" class="row">
+                    <!--TECHS APPEAR HERE-->
+                </div>
+            </div>
+            <div class="right-spacer-main"></div> <!--SPACER (do not remove)-->
+        </div>
+
+        <!--THANKS BANNER-->
         <a id="thankyou"></a>
-        <div class="jumbotron jumbotron-fluid sm-width">
+        <div class="lil-nav-wrapper thanks"> <!--WRAPPER (do not remove)-->
             <nav id="jumbheader" class="navbar navbar-light bg-light">
                 <span class="header-text">
-                    <h2 class="title-font styleHeaders">Thank You!</h2>
+                    <h2 class="title-font styleHeaders">
+                        Thank You!
+                    </h2>
                 </span>
             </nav>
         </div>
-        <div class="container words">
-            <div id="thanks">
-                <p>
-                    As we find ourselves ready and eager to move on, we take with us the strength and knowledge we’ve gained through our 
-                    interactions, encounters, challenges, and accomplishments. We didn’t go through this alone, and are grateful 
-                    for all who helped us get to where we are.
-                </p>
-                <hr>
-                <p>
-                    Thank you to our amazing instructors; we couldn’t have done it without you! Steve, Kristen, James, Joe, Jack, Spencer, and Mo.
-                </p>
-                <hr>
-                <p>
-                    Thank you also to the NSS staff!
-                    You guys keep things moving
-                    smoothly and we appreciate all of your hard work!
-                    <br>
-                    <br>
-                    We are grateful for John Wark and his vision for Nashville Software School. We wouldn't be here
-                    without you and we are grateful!
-                </p>
-                <hr>
-                <p>
-                    Finally, a huge thank you to Chris Johnson, Monica Provence, Connor Blakeney, Emily Hartzell, 
-                    and Gib Jeffries for planning and creating this site -- all while learning our server side technology!
-                </p>
+
+        <div class="inner-main thankyous">
+            <div class="left-spacer-main"></div> <!--SPACER (do not remove)-->
+            <div class="container words">
+                <div id="thanks">
+                    <p class="thankyou-chunk">
+                        As we find ourselves ready and eager to move on, we take with us the strength and knowledge we’ve gained through our
+                        interactions, encounters, challenges, and accomplishments. We didn’t go through this alone, and are grateful
+                        for all who helped us get to where we are.
+                    </p>
+                    <hr>
+                    <p class="thankyou-chunk">
+                        Thank you to our amazing instructors; we couldn’t have done it without you! Steve, Kristen, James, Joe, Jack, Spencer, and Mo.
+                    </p>
+                    <hr>
+                    <p class="thankyou-chunk">
+                        Thank you also to the NSS staff!
+                        You guys keep things moving
+                        smoothly and we appreciate all of your hard work!
+                        <br>
+                        <br>
+                        We are grateful for John Wark and his vision for Nashville Software School. We wouldn't be here
+                        without you and we are grateful!
+                    </p>
+                    <hr>
+                    <p class="thankyou-chunk">
+                        Finally, a huge thank you to Chris Johnson, Monica Provence, Connor Blakeney, Emily Hartzell,
+                        and Gib Jeffries for planning and creating this site -- all while learning our server side technology!
+                    </p>
+                </div>
             </div>
+            <div class="right-spacer-main"></div> <!--SPACER (do not remove)-->
         </div>
     </main>
 
-    <!-- footer -->
-    <footer class="navbar navbar-light bg-light footer">
-        <p>
-            &copy; 2021. Nashville Software School Cohort 42.
-        </p>
-    </footer>
+    <!--FOOTER-->
+    <div class="lil-nav-wrapper footer"> <!--WRAPPER (do not remove)-->
+        <footer class="navbar navbar-light bg-light footer">
+            <div class="inner-footer">
+                <span class="copy">
+                    &copy; 2021. Nashville Software School Cohort 42.
+                </span>
+            </div>
+        </footer>
+    </div>
 
-
-    <!-- scripts -->
+    <!--SCRIPTS-->
     <script>
-    const ShowDate = () => {
-    document.getElementById("btnRight").innerHTML=`<span id="jan" class="jan">Jan 12th</span>`
-
+    const ShowDate = () => { /* Shows 'Jan 12th' (YOUR DEMO DAY) on right side of RSVP button on mouseover */
+    document.getElementById("btnRight").innerHTML=`
+        <span class="jan">
+            Jan 12th
+        </span>`
     }
-    const DemoDay = () => {
-    document.getElementById("btnRight").innerHTML=`<span id="dd" class="dd">Demo Day</span>`
-
+    const DemoDay = () => { /* Shows text 'Demo Day' on right side of RSVP button on mouseleave */
+    document.getElementById("btnRight").innerHTML=`
+        <span class="dd">
+            Demo day
+        </span>`
     }
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
