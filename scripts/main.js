@@ -39,50 +39,50 @@ const shuffle = (arr) => {
 
 //RENDER COHORT MEMBER LIST
 function cohortMembers(list) {
+
     let data = list.cohort;
     data = shuffle(data) /* randomize order */
     data.forEach(item => {
+
         let studentContact = `
             <div class="studentContact">`
 
-        if (item.portfolio != "") { /*If PORTFOLIO exists, render INTERNET ICON*/
+        if (item.portfolio != "") { /*If PORTFOLIO exists, render INTERNET icon*/
             studentContact += `
                 <a href=${item.portfolio} target="_blank">
                     <i class="fas fa-globe fa-2x contactIcons"></i>
                 </a>`
         }
 
-        if (item.frontend != "") { /*If FE DEMO exists, render YOUTUBE ICON*/
+        if (item.frontend != "") { /*If FE DEMO exists, render YOUTUBE icon*/
             studentContact += `
                 <a href=${item.frontend} target="_blank">
                     <i class="fab fa-youtube fa-2x contactIcons"></i>
                 </a>`
         }
 
-        if (item.github != "") { /*If GITHUB exists, render GITHUB ICON*/
+        if (item.github != "") { /*If GITHUB exists, render GITHUB icon*/
             studentContact += `
                 <a href=${item.github} target="_blank">
                     <i class="fab fa-github fa-2x contactIcons"></i>
                 </a>`
         }
 
-        if (item.linkedIn != "") { /*If LINKEDIN exists, render LINKEDIN ICON*/
+        if (item.linkedIn != "") { /*If LINKEDIN exists, render LINKEDIN icon*/
             studentContact += `
                 <a href=${item.linkedIn} target="_blank">
                     <i class="fab fa-linkedin fa-2x contactIcons"></i>
                 </a>`
         }
 
-        if (item.email != null) { /*If EMAIL exists, render EMAIL ICON*/
+        if (item.email != null) { /*If EMAIL exists, render EMAIL icon*/
             studentContact += `
                 <a href=mailto:${item.email} target="_blank">
                     <i class="fas fa-envelope fa-2x contactIcons"></i>
                 </a>`
         }
 
-        //Close 'studentContact' div
-        studentContact += `
-            </div>`
+        studentContact += `</div>` /* close studentContact */
 
         let studentInfo = `
             <div class="col-md-3 cohortMems">
@@ -103,7 +103,7 @@ function cohortMembers(list) {
 
         if (item.resume != "") { /*If RESUME exists, render RESUME BUTTON*/
             const resumeButton = `
-                    <div class="resumeDiv">
+                    <div class="resumeButtonContain">
                         <button type="button" class="btn btn-outline-primary title-font bottom resumeButton" data-toggle="modal" data target="#cohortMember${item.id}" title="Download Resume">
                             <a class="resumeHyperlink" href="images/resumes/${item.resume}" download="${item.lastName}_Resume">
                                 Download Resume
@@ -116,61 +116,56 @@ function cohortMembers(list) {
         if(item.bio != "") { /*If BIO exists, render LEARN MORE BTN, MODAL, & BACK BTN*/
             const learnMoreButton = `
                     <div class="learnMoreButtonContain">
-                        <button type="button" class="btn btn-outline-primary title-font bottom detailsButton" data-toggle="modal" data-target="#cohortMember${item.id}" title="See Details">
+                        <button type="button" class="btn btn-outline-primary title-font bottom learnMoreButton" data-toggle="modal" data-target="#cohortMember${item.id}" title="See Details">
                             Learn More!
                         </button>
                     </div>`
 
             studentInfo += learnMoreButton
 
-            const modalInfo = `
-                <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
+            const modalInfo =
+                `<div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
                     <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <div class="student-name-modal">
-                                    <h5 class="modal-title title-font" id="cohortMember${item.id}Label">
+                        <div class="popup">
+                            <div class="popup-left">
+                                <img class="student-fun-image" src="images/classmates/${item.funImg}" alt="${item.firstName} ${item.lastName} fun"/>
+                            </div>
+                            <div class="popup-right">
+                                <div class="student-name-container-popup">
+                                    <h5 class="student-name_popup" id="cohortMember${item.id}Label">
                                         ${item.firstName} ${item.lastName}
                                     </h5>
                                 </div>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span class="close-modal" aria-hidden="true">
+                                <button type="button" class="close-popup-button pointer" data-dismiss="modal" aria-label="Close">
+                                    <span class="close-popup" aria-hidden="true">
                                         &times;
                                     </span>
                                 </button>
-                            </div>
-                            <div class="modal-body">
-                                <center>
-                                    <img src="images/classmates/${item.funImg}" alt="${item.firstName} ${item.lastName} fun"/>
-                                </center>
-                                <div class="bioContainer">
+                                <div class="student-bio-container">
                                     ${item.bio}
                                 </div>
-                            </div>`
+                                <div class="fade-out"></div>`
 
-            studentInfo += modalInfo /*adds modal info*/
-            studentInfo += studentContact /*adds contact info*/
+            studentInfo += modalInfo /* adds MODAL INFO */
+            studentInfo += studentContact /* adds CONTACT iconS */
 
-            // creates back button
-            const backButton = `
-                            <div class="backButton">
-                                <center>
+            const backButton = /* BACK BUTTON */
+                                `<div class="backButton">
                                     <button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
                                         Back
                                     </button>
-                                </center>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>` /*closes modal dialog div*/
+                </div>` /* close modal dialog */
 
             studentInfo += backButton
         }
-        else { /*closes cohortMems and card-body divs*/
+        else {
             studentInfo += `
-                </div>
-            </div>
-            `
+                </div> <!--close card-body-->
+            </div>` /* close cohortMems */
         }
 
         document.getElementById("cohort").innerHTML += studentInfo;
