@@ -217,11 +217,101 @@ body {
     justify-items: center;
 }
 
-.modal-header {
-    justify-content: center;
+  .navbar.navbar-light.bg-light.footer{
+      margin-top:10px;
+      font-size: 1em;
+      background-color: #238193!important;
+      color: white;
+  }
+
+  #demo-date {
+      text-align: center;
+  }
+
+  #demo-date a {
+      color: #238193!important;
+  }
+
+  button{
+      cursor: pointer;
+  }
+  .btn-outline-primary{
+      color: #238193!important;
+      border-color: #238193!important;
+  }
+
+  .btn-outline-primary:hover{
+      color: white!important;
+      background-color: #238193!important;
+  }
+
+  /* adjusts size of contact icons depending on size of card */
+@media (min-width: 992px) and (max-width: 1200px){
+    .fa-3x{
+        font-size: 2.5em!important;
+    }
 }
 
-.title-font {
+@media (min-width: 768px) and (max-width: 991px){
+    .fa-3x{
+        font-size: 2em!important;
+    }
+}
+
+
+  @media (max-width: 900px) {
+
+      .jumbotron.jumbotron-fluid img{
+          background: white;
+          margin-top: 10%;
+          padding-top: 1rem;
+
+         }
+         .jumbotron.jumbotron-fluid.sm-width{
+          width: 100%;
+          margin-top: 10%;
+          padding-top: none;
+      }
+         .header-text{
+          margin: 0 auto;
+          height: 30px;
+         }
+         .header-text h2{
+          font-size: 1.5em;
+          margin-top: -10px;
+         }
+         .modal-body{
+          display: block;
+        }
+        .modal-content {
+          width: 100%;
+      }
+         .modal-body img{
+          width: 100%;
+        }
+        main {
+          margin-bottom: 100px;
+          margin-top: -50px;
+          width: 100%
+        }
+        .navbar-brand img{
+          padding-right: none;
+        }
+
+  }
+
+/* -------------------Styling for RSVP Button */
+.btn--rsvp {
+    font-weight: 700;
+    border: 2px solid rgba(33, 37, 41, 0.95);
+    color: rgba(33, 37, 41, 0.95) !important;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: center;
+    width: 170px;
+    height: 44px;
+    transition: .35s;
+    cursor: pointer;
     display: flex;
     justify-self: right;
     align-self: right;
