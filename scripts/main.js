@@ -36,7 +36,20 @@ const shuffle = (arr) => {
     //then return the array!
     return arr;
 }
+const globeIcon = `<i class="fas fa-globe fa-2x contactIcons"></i>`
+const youtubeIcon = `<i class="fas fa-youtube fa-2x contactIcons"></i>`
+const githubIcon = `<i class="fas fa-github fa-2x contactIcons"></i>`
+const mailIcon = `<i class="fas fa-envelope fa-2x contactIcons"></i>`
+const linkedInIcon = `<i class="fas fa-linkedin fa-2x contactIcons"></i>`
 
+const iconLink = (item, type) => {
+    const linkedIcon = `
+    <a href=${item} target="_blank">
+    ${type}
+    </a>
+    `
+    return linkedIcon
+}
 //RENDER COHORT MEMBER LIST
 function cohortMembers(list) {
 
@@ -47,12 +60,9 @@ function cohortMembers(list) {
         let studentContact = `
             <div class="studentContact">`
 
-        if (item.portfolio != "") { /*If PORTFOLIO exists, render INTERNET icon*/
-            studentContact += `
-                <a href=${item.portfolio} target="_blank">
-                    <i class="fas fa-globe fa-2x contactIcons"></i>
-                </a>`
-        }
+        // if (item.portfolio) { /*If PORTFOLIO exists, render INTERNET icon*/
+        //     studentContact += iconLink(item.portfolio, globeIcon)
+        // }
 
         if (item.frontend != "") { /*If FE DEMO exists, render YOUTUBE icon*/
             studentContact += `
